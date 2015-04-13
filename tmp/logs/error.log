@@ -1,0 +1,2463 @@
+2015-03-04 14:25:19 Error: [MissingControllerException] Controller class ActionsController could not be found.
+Exception Attributes: array (
+  'class' => 'ActionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/actions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 14:25:56 Error: [MissingControllerException] Controller class ActionsController could not be found.
+Exception Attributes: array (
+  'class' => 'ActionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/actions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 14:29:55 Error: [MissingControllerException] Controller class ActionsController could not be found.
+Exception Attributes: array (
+  'class' => 'ActionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/actions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 14:29:59 Error: [MissingControllerException] Controller class ActionController could not be found.
+Exception Attributes: array (
+  'class' => 'ActionController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/action
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 14:30:01 Error: [MissingControllerException] Controller class ActioController could not be found.
+Exception Attributes: array (
+  'class' => 'ActioController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/actio
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 14:31:23 Error: [MissingControllerException] Controller class ActionsController could not be found.
+Exception Attributes: array (
+  'class' => 'ActionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/actions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 14:43:19 Error: [MissingControllerException] Controller class ActionsController could not be found.
+Exception Attributes: array (
+  'class' => 'ActionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/actions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 14:45:54 Error: [MissingControllerException] Controller class ActiosnController could not be found.
+Exception Attributes: array (
+  'class' => 'ActiosnController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/actiosn
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 14:45:57 Error: [MissingControllerException] Controller class ActionsController could not be found.
+Exception Attributes: array (
+  'class' => 'ActionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/actions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 14:48:58 Error: [MissingControllerException] Controller class ActionsController could not be found.
+Exception Attributes: array (
+  'class' => 'ActionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/actions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 14:53:48 Error: [MissingControllerException] Controller class ActionsController could not be found.
+Exception Attributes: array (
+  'class' => 'ActionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/actions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 14:53:50 Error: [MissingControllerException] Controller class ActionController could not be found.
+Exception Attributes: array (
+  'class' => 'ActionController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/action
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 14:54:00 Error: [MissingControllerException] Controller class TblactionController could not be found.
+Exception Attributes: array (
+  'class' => 'TblactionController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/tblaction
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 14:54:03 Error: [MissingControllerException] Controller class TblactionsController could not be found.
+Exception Attributes: array (
+  'class' => 'TblactionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 14:54:46 Error: [MissingControllerException] Controller class TblactionsController could not be found.
+Exception Attributes: array (
+  'class' => 'TblactionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 14:54:47 Error: [MissingControllerException] Controller class TblactionController could not be found.
+Exception Attributes: array (
+  'class' => 'TblactionController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/tblaction
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 14:55:51 Error: [MissingControllerException] Controller class TblactionController could not be found.
+Exception Attributes: array (
+  'class' => 'TblactionController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/tblaction
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 14:56:54 Error: [MissingControllerException] Controller class TblactionController could not be found.
+Exception Attributes: array (
+  'class' => 'TblactionController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/tblaction
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 14:56:56 Error: [MissingControllerException] Controller class TblactionsController could not be found.
+Exception Attributes: array (
+  'class' => 'TblactionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 14:56:58 Error: [MissingControllerException] Controller class TblactionsController could not be found.
+Exception Attributes: array (
+  'class' => 'TblactionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 14:57:29 Error: [MissingControllerException] Controller class TblactionsController could not be found.
+Exception Attributes: array (
+  'class' => 'TblactionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 14:57:41 Error: [MissingControllerException] Controller class TblactionsController could not be found.
+Exception Attributes: array (
+  'class' => 'TblactionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 14:57:51 Error: [MissingTableException] Table tbl_actions for model TblAction was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tbl_actions',
+  'class' => 'TblAction',
+  'ds' => 'default',
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3644): Model->setSource('tbl_actions')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1483): Model->schema()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1470): Model->hasField('title', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(907): Model->hasField(Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Scaffold.php(130): Model->__get('displayField')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(TblActionsController), Object(CakeRequest))
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblActionsController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-03-04 15:02:25 Error: [MissingControllerException] Controller class TblactionsController could not be found.
+Exception Attributes: array (
+  'class' => 'TblactionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 15:26:48 Error: [MissingTableException] Table tbl_actions for model Tblaction was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tbl_actions',
+  'class' => 'Tblaction',
+  'ds' => 'default',
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3644): Model->setSource('tbl_actions')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1483): Model->schema()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1470): Model->hasField('title', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(907): Model->hasField(Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Scaffold.php(130): Model->__get('displayField')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(TblactionsController), Object(CakeRequest))
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-03-04 15:27:59 Error: [MissingTableException] Table tbl_actions for model Tblaction was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'tbl_actions',
+  'class' => 'Tblaction',
+  'ds' => 'default',
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3644): Model->setSource('tbl_actions')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1387): Model->getDataSource()
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1483): Model->schema()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1470): Model->hasField('title', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(907): Model->hasField(Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Scaffold.php(130): Model->__get('displayField')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(TblactionsController), Object(CakeRequest))
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-03-04 15:31:18 Error: [MissingControllerException] Controller class ActionsController could not be found.
+Exception Attributes: array (
+  'class' => 'ActionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/actions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 15:32:19 Error: [MissingControllerException] Controller class ActionsController could not be found.
+Exception Attributes: array (
+  'class' => 'ActionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/actions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 15:32:38 Error: [MissingControllerException] Controller class TblactionsController could not be found.
+Exception Attributes: array (
+  'class' => 'TblactionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 15:32:43 Error: [MissingControllerException] Controller class TblactionController could not be found.
+Exception Attributes: array (
+  'class' => 'TblactionController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/tblaction
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 15:32:46 Error: [MissingControllerException] Controller class TblactionsController could not be found.
+Exception Attributes: array (
+  'class' => 'TblactionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 15:33:10 Error: [MissingControllerException] Controller class TblactionsController could not be found.
+Exception Attributes: array (
+  'class' => 'TblactionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 16:38:43 Error: [NotFoundException] Invalid Tblaction
+Request URL: /cakephp/tblactions/edit
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Scaffold.php(394): Scaffold->_scaffoldSave(Object(CakeRequest), 'edit')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Scaffold.php(150): Scaffold->_scaffold(Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(TblactionsController), Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#6 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-03-04 16:43:26 Error: [NotFoundException] Invalid Tblaction
+Request URL: /cakephp/tblactions/delete
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Scaffold.php(397): Scaffold->_scaffoldDelete(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Scaffold.php(150): Scaffold->_scaffold(Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(TblactionsController), Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#6 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-03-04 16:44:51 Error: [NotFoundException] Invalid Tblaction
+Request URL: /cakephp/tblactions/delete
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Scaffold.php(397): Scaffold->_scaffoldDelete(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Scaffold.php(150): Scaffold->_scaffold(Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(TblactionsController), Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#6 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-03-04 19:37:31 Error: [MissingControllerException] Controller class TblactionsController could not be found.
+Exception Attributes: array (
+  'class' => 'TblactionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 19:37:47 Error: [MissingControllerException] Controller class TblactionController could not be found.
+Exception Attributes: array (
+  'class' => 'TblactionController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/tblaction
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 19:37:52 Error: [MissingControllerException] Controller class TblactionsController could not be found.
+Exception Attributes: array (
+  'class' => 'TblactionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 21:29:07 Error: [MissingControllerException] Controller class TblactionsController could not be found.
+Exception Attributes: array (
+  'class' => 'TblactionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 21:36:39 Error: [MissingControllerException] Controller class TblactionsController could not be found.
+Exception Attributes: array (
+  'class' => 'TblactionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 21:36:39 Error: [MissingControllerException] Controller class TblactionsController could not be found.
+Exception Attributes: array (
+  'class' => 'TblactionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 21:37:07 Error: [MissingControllerException] Controller class TblactionsController could not be found.
+Exception Attributes: array (
+  'class' => 'TblactionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-04 21:38:59 Error: [NotFoundException] Invalid Tblaction
+Request URL: /cakephp/tblactions/edit
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Scaffold.php(394): Scaffold->_scaffoldSave(Object(CakeRequest), 'edit')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Scaffold.php(150): Scaffold->_scaffold(Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(TblactionsController), Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#6 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-03-04 22:04:36 Error: Fatal Error (4): syntax error, unexpected '{', expecting ')' in [C:\xampp\htdocs\cakephp\lib\Cake\View\Scaffolds\index.ctp, line 46]
+2015-03-04 22:04:36 Error: [FatalErrorException] syntax error, unexpected '{', expecting ')'
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 46, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 46, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-04 22:12:58 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [C:\xampp\htdocs\cakephp\lib\Cake\View\Scaffolds\index.ctp, line 46]
+2015-03-04 22:12:58 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 46, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 46, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-04 22:25:22 Error: Fatal Error (4): syntax error, unexpected '.' in [C:\xampp\htdocs\cakephp\lib\Cake\View\Scaffolds\index.ctp, line 47]
+2015-03-04 22:25:22 Error: [FatalErrorException] syntax error, unexpected '.'
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 47)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 47, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 47, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-04 22:28:22 Error: [NotFoundException] Invalid Tblaction
+Request URL: /cakephp/tblactions/view
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Scaffold.php(386): Scaffold->_scaffoldView(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Scaffold.php(150): Scaffold->_scaffold(Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(TblactionsController), Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#6 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-03-04 22:28:36 Error: [NotFoundException] Invalid Tblaction
+Request URL: /cakephp/tblactions/edit
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Scaffold.php(394): Scaffold->_scaffoldSave(Object(CakeRequest), 'edit')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Scaffold.php(150): Scaffold->_scaffold(Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(TblactionsController), Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#6 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-03-04 22:37:28 Error: [NotFoundException] Invalid Tblaction
+Request URL: /cakephp/tblactions/delete
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Scaffold.php(397): Scaffold->_scaffoldDelete(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Scaffold.php(150): Scaffold->_scaffold(Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(TblactionsController), Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#6 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2015-03-06 20:09:09 Error: [MissingActionException] Action Users::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'Users',
+  'action' => 'login',
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Scaffold.php(150): Scaffold->_scaffold(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2015-03-06 20:13:01 Error: [MissingActionException] Action Users::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'Users',
+  'action' => 'login',
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Scaffold.php(150): Scaffold->_scaffold(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2015-03-07 14:44:49 Error: [MissingActionException] Action Users::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'Users',
+  'action' => 'login',
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Scaffold.php(150): Scaffold->_scaffold(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2015-03-07 14:55:29 Error: [MissingActionException] Action Users::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'Users',
+  'action' => 'login',
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Scaffold.php(150): Scaffold->_scaffold(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(535): Scaffold->__construct(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2015-03-07 15:00:11 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\xampp\htdocs\cakephp\app\Controller\AppController.php, line 59]
+2015-03-07 15:00:11 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 59)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 59, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 59, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-07 15:00:15 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\xampp\htdocs\cakephp\app\Controller\AppController.php, line 59]
+2015-03-07 15:00:15 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 59)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 59, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 59, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-07 15:00:19 Error: Fatal Error (4): syntax error, unexpected end of file, expecting function (T_FUNCTION) in [C:\xampp\htdocs\cakephp\app\Controller\AppController.php, line 59]
+2015-03-07 15:00:19 Error: [FatalErrorException] syntax error, unexpected end of file, expecting function (T_FUNCTION)
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 59)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 59, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 59, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-07 15:32:25 Error: [MissingControllerException] Controller class TblactionsController could not be found.
+Exception Attributes: array (
+  'class' => 'TblactionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-07 15:32:34 Error: [MissingControllerException] Controller class TblactionsController could not be found.
+Exception Attributes: array (
+  'class' => 'TblactionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-07 15:32:34 Error: [MissingControllerException] Controller class TblactionsController could not be found.
+Exception Attributes: array (
+  'class' => 'TblactionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-07 15:32:47 Error: [MissingControllerException] Controller class TblactionsController could not be found.
+Exception Attributes: array (
+  'class' => 'TblactionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/tblactions/hello_world
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-07 15:38:12 Error: [MissingControllerException] Controller class TblactionsController could not be found.
+Exception Attributes: array (
+  'class' => 'TblactionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-07 15:38:15 Error: [MissingControllerException] Controller class TblactionsController could not be found.
+Exception Attributes: array (
+  'class' => 'TblactionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/tblactions/hello_world
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-07 16:12:11 Error: [MissingActionException] Action TblactionsController::2() could not be found.
+Exception Attributes: array (
+  'controller' => 'TblactionsController',
+  'action' => '2',
+)
+Request URL: /cakephp/tblactions/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-07 16:17:26 Error: [MissingHelperException] Helper class Helper could not be found.
+Exception Attributes: array (
+  'class' => 'Helper',
+  'plugin' => false,
+)
+Request URL: /cakephp/tblactions/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(848): HelperCollection->__isset('')
+#2 C:\xampp\htdocs\cakephp\app\View\Tblactions\index.ctp(10): View->__get('')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-07 16:18:04 Error: Fatal Error (1): Call to a member function link() on null in [C:\xampp\htdocs\cakephp\app\View\Tblactions\index.ctp, line 10]
+2015-03-07 16:18:04 Error: [FatalErrorException] Call to a member function link() on null
+Request URL: /cakephp/tblactions/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 10, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 10, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-07 16:23:23 Error: Fatal Error (1): Call to a member function link() on null in [C:\xampp\htdocs\cakephp\app\View\Tblactions\view.ctp, line 7]
+2015-03-07 16:23:23 Error: [FatalErrorException] Call to a member function link() on null
+Request URL: /cakephp/tblactions/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 7, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 7, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-07 16:23:26 Error: Fatal Error (1): Call to a member function link() on null in [C:\xampp\htdocs\cakephp\app\View\Tblactions\view.ctp, line 7]
+2015-03-07 16:23:26 Error: [FatalErrorException] Call to a member function link() on null
+Request URL: /cakephp/tblactions/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 7, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 7, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-07 18:02:25 Error: Fatal Error (1): Call to undefined function emply() in [C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php, line 19]
+2015-03-07 18:02:26 Error: [FatalErrorException] Call to undefined function emply()
+Request URL: /cakephp/tblactions/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-07 18:03:13 Error: Fatal Error (1): Call to undefined function emply() in [C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php, line 19]
+2015-03-07 18:03:13 Error: [FatalErrorException] Call to undefined function emply()
+Request URL: /cakephp/tblactions/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-07 18:08:54 Error: Fatal Error (1): Call to a member function setFlash() on null in [C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php, line 28]
+2015-03-07 18:08:54 Error: [FatalErrorException] Call to a member function setFlash() on null
+Request URL: /cakephp/tblactions/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 28, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 28, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-07 18:09:53 Error: Fatal Error (1): Call to a member function setFlash() on null in [C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php, line 28]
+2015-03-07 18:09:53 Error: [FatalErrorException] Call to a member function setFlash() on null
+Request URL: /cakephp/tblactions/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 28, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 28, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-07 18:11:09 Error: Fatal Error (1): Call to a member function setFlash() on null in [C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php, line 28]
+2015-03-07 18:11:09 Error: [FatalErrorException] Call to a member function setFlash() on null
+Request URL: /cakephp/tblactions/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 28, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 28, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-07 18:11:59 Error: Fatal Error (1): Call to a member function setFlash() on null in [C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php, line 30]
+2015-03-07 18:11:59 Error: [FatalErrorException] Call to a member function setFlash() on null
+Request URL: /cakephp/tblactions/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 30, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 30, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-07 18:12:03 Error: Fatal Error (1): Call to a member function setFlash() on null in [C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php, line 30]
+2015-03-07 18:12:03 Error: [FatalErrorException] Call to a member function setFlash() on null
+Request URL: /cakephp/tblactions/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 30, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 30, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-07 18:12:13 Error: Fatal Error (1): Call to a member function setFlash() on null in [C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php, line 30]
+2015-03-07 18:12:13 Error: [FatalErrorException] Call to a member function setFlash() on null
+Request URL: /cakephp/tblactions/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 30)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 30, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 30, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-07 18:16:52 Error: Fatal Error (1): Call to a member function setFlash() on null in [C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php, line 28]
+2015-03-07 18:16:52 Error: [FatalErrorException] Call to a member function setFlash() on null
+Request URL: /cakephp/tblactions/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 28, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 28, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-07 18:17:07 Error: Fatal Error (1): Call to a member function setFlash() on null in [C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php, line 28]
+2015-03-07 18:17:07 Error: [FatalErrorException] Call to a member function setFlash() on null
+Request URL: /cakephp/tblactions/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 28, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 28, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-07 18:17:53 Error: Fatal Error (1): Call to a member function setFlash() on null in [C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php, line 28]
+2015-03-07 18:17:53 Error: [FatalErrorException] Call to a member function setFlash() on null
+Request URL: /cakephp/tblactions/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 28, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 28, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-07 18:17:59 Error: Fatal Error (1): Call to a member function setFlash() on null in [C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php, line 28]
+2015-03-07 18:17:59 Error: [FatalErrorException] Call to a member function setFlash() on null
+Request URL: /cakephp/tblactions/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 28, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 28, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-07 18:20:33 Error: Fatal Error (1): Call to a member function setFlash() on null in [C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php, line 23]
+2015-03-07 18:20:33 Error: [FatalErrorException] Call to a member function setFlash() on null
+Request URL: /cakephp/tblactions/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 23, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 23, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-07 18:38:54 Error: Fatal Error (1): Call to a member function save() on null in [C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php, line 41]
+2015-03-07 18:38:54 Error: [FatalErrorException] Call to a member function save() on null
+Request URL: /cakephp/tblactions/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 41)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 41, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 41, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-07 22:52:34 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-08 17:29:34 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-08 17:29:56 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-08 17:30:10 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-08 17:30:11 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-08 17:33:36 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-08 18:02:06 Error: Fatal Error (4): syntax error, unexpected 'CakePlugin' (T_STRING) in [C:\xampp\htdocs\cakephp\app\Config\routes.php, line 42]
+2015-03-08 18:02:06 Error: [FatalErrorException] syntax error, unexpected 'CakePlugin' (T_STRING)
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 42, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 42, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-08 18:02:51 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-08 18:03:35 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-08 18:03:38 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-08 18:06:23 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-08 18:07:26 Error: [MissingActionException] Action PagesController::tblaction() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'tblaction',
+)
+Request URL: /cakephp/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-09 19:43:01 Error: Fatal Error (1): Call to a member function create() on null in [C:\xampp\htdocs\cakephp\app\View\Tblactions\index.ctp, line 9]
+2015-03-09 19:43:01 Error: [FatalErrorException] Call to a member function create() on null
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 9, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 9, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-09 19:44:20 Error: Fatal Error (1): Call to a member function create() on null in [C:\xampp\htdocs\cakephp\app\View\Tblactions\index.ctp, line 9]
+2015-03-09 19:44:20 Error: [FatalErrorException] Call to a member function create() on null
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 9, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 9, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-09 19:44:21 Error: Fatal Error (1): Call to a member function create() on null in [C:\xampp\htdocs\cakephp\app\View\Tblactions\index.ctp, line 9]
+2015-03-09 19:44:21 Error: [FatalErrorException] Call to a member function create() on null
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 9, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 9, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-09 19:45:26 Error: Fatal Error (1): Call to a member function create() on null in [C:\xampp\htdocs\cakephp\app\View\Tblactions\index.ctp, line 9]
+2015-03-09 19:45:26 Error: [FatalErrorException] Call to a member function create() on null
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 9, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 9, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-09 19:45:27 Error: Fatal Error (1): Call to a member function create() on null in [C:\xampp\htdocs\cakephp\app\View\Tblactions\index.ctp, line 9]
+2015-03-09 19:45:27 Error: [FatalErrorException] Call to a member function create() on null
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 9)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 9, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 9, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-09 19:46:15 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'search' at line 1
+Request URL: /cakephp/tblactions/search
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('search', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('search', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(611): DboSource->fetchAll('search', Array, Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(827): DboSource->query('search', Array, Object(Tblaction))
+#5 C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php(67): Model->__call('search', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php(67): Tblaction->search('137')
+#7 [internal function]: TblactionsController->search()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-03-09 19:53:24 Error: Fatal Error (1): Call to a member function create() on null in [C:\xampp\htdocs\cakephp\app\View\Tblactions\index.ctp, line 3]
+2015-03-09 19:53:24 Error: [FatalErrorException] Call to a member function create() on null
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 3, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 3, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-09 19:54:57 Error: Fatal Error (1): Call to a member function link() on null in [C:\xampp\htdocs\cakephp\app\View\Tblactions\index.ctp, line 7]
+2015-03-09 19:54:57 Error: [FatalErrorException] Call to a member function link() on null
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 7, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 7, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-09 19:54:58 Error: Fatal Error (1): Call to a member function link() on null in [C:\xampp\htdocs\cakephp\app\View\Tblactions\index.ctp, line 7]
+2015-03-09 19:54:58 Error: [FatalErrorException] Call to a member function link() on null
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 7, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 7, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-09 19:54:59 Error: Fatal Error (1): Call to a member function link() on null in [C:\xampp\htdocs\cakephp\app\View\Tblactions\index.ctp, line 7]
+2015-03-09 19:54:59 Error: [FatalErrorException] Call to a member function link() on null
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 7, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 7, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-09 19:55:16 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'search' at line 1
+Request URL: /cakephp/tblactions/search
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('search', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('search', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(611): DboSource->fetchAll('search', Array, Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(827): DboSource->query('search', Array, Object(Tblaction))
+#5 C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php(67): Model->__call('search', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php(67): Tblaction->search('test')
+#7 [internal function]: TblactionsController->search()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-03-09 19:56:47 Error: [MissingBehaviorException] Behavior class SearchableBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'SearchableBehavior',
+  'plugin' => false,
+)
+Request URL: /cakephp/tblactions/search
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Searchable', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(774): BehaviorCollection->init('Tblaction', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(741): ClassRegistry::init(Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(367): Controller->loadModel('Tblaction')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(405): Controller->__isset('Tblaction')
+#7 C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php(67): Controller->__get('Tblaction')
+#8 [internal function]: TblactionsController->search()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-03-09 19:56:49 Error: [MissingBehaviorException] Behavior class SearchableBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'SearchableBehavior',
+  'plugin' => false,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Searchable', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(774): BehaviorCollection->init('Tblaction', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(741): ClassRegistry::init(Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(367): Controller->loadModel('Tblaction')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(405): Controller->__isset('Tblaction')
+#7 C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php(16): Controller->__get('Tblaction')
+#8 [internal function]: TblactionsController->index()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-03-09 19:57:51 Error: [MissingBehaviorException] Behavior class SearchableBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'SearchableBehavior',
+  'plugin' => false,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Searchable', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(774): BehaviorCollection->init('Tblaction', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(741): ClassRegistry::init(Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(367): Controller->loadModel('Tblaction')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(405): Controller->__isset('Tblaction')
+#7 C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php(16): Controller->__get('Tblaction')
+#8 [internal function]: TblactionsController->index()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-03-09 19:58:41 Error: [MissingBehaviorException] Behavior class SearchableBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'SearchableBehavior',
+  'plugin' => false,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Searchable', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(774): BehaviorCollection->init('Tblaction', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(741): ClassRegistry::init(Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(367): Controller->loadModel('Tblaction')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(405): Controller->__isset('Tblaction')
+#7 C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php(16): Controller->__get('Tblaction')
+#8 [internal function]: TblactionsController->index()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-03-09 19:59:20 Error: [MissingBehaviorException] Behavior class searchableBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'searchableBehavior',
+  'plugin' => false,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('searchable', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(774): BehaviorCollection->init('Tblaction', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(741): ClassRegistry::init(Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(367): Controller->loadModel('Tblaction')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(405): Controller->__isset('Tblaction')
+#7 C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php(16): Controller->__get('Tblaction')
+#8 [internal function]: TblactionsController->index()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-03-09 19:59:21 Error: [MissingBehaviorException] Behavior class searchableBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'searchableBehavior',
+  'plugin' => false,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('searchable', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(774): BehaviorCollection->init('Tblaction', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(741): ClassRegistry::init(Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(367): Controller->loadModel('Tblaction')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(405): Controller->__isset('Tblaction')
+#7 C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php(16): Controller->__get('Tblaction')
+#8 [internal function]: TblactionsController->index()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-03-09 19:59:42 Error: [MissingBehaviorException] Behavior class SearchableBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'SearchableBehavior',
+  'plugin' => false,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Searchable', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(774): BehaviorCollection->init('Tblaction', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(741): ClassRegistry::init(Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(367): Controller->loadModel('Tblaction')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(405): Controller->__isset('Tblaction')
+#7 C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php(16): Controller->__get('Tblaction')
+#8 [internal function]: TblactionsController->index()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-03-09 20:15:48 Error: [MissingBehaviorException] Behavior class SearchableBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'SearchableBehavior',
+  'plugin' => false,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Searchable', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(774): BehaviorCollection->init('Tblaction', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(741): ClassRegistry::init(Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(367): Controller->loadModel('Tblaction')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(405): Controller->__isset('Tblaction')
+#7 C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php(16): Controller->__get('Tblaction')
+#8 [internal function]: TblactionsController->index()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-03-09 20:16:10 Error: [MissingBehaviorException] Behavior class SearchableBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'SearchableBehavior',
+  'plugin' => false,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Searchable', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(774): BehaviorCollection->init('Tblaction', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(741): ClassRegistry::init(Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(367): Controller->loadModel('Tblaction')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(405): Controller->__isset('Tblaction')
+#7 C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php(16): Controller->__get('Tblaction')
+#8 [internal function]: TblactionsController->index()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-03-09 20:16:11 Error: [MissingBehaviorException] Behavior class SearchableBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'SearchableBehavior',
+  'plugin' => false,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Searchable', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(774): BehaviorCollection->init('Tblaction', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(741): ClassRegistry::init(Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(367): Controller->loadModel('Tblaction')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(405): Controller->__isset('Tblaction')
+#7 C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php(16): Controller->__get('Tblaction')
+#8 [internal function]: TblactionsController->index()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-03-09 20:16:41 Error: [MissingBehaviorException] Behavior class SearchableBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'SearchableBehavior',
+  'plugin' => false,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Searchable', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(774): BehaviorCollection->init('Tblaction', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(741): ClassRegistry::init(Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(367): Controller->loadModel('Tblaction')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(405): Controller->__isset('Tblaction')
+#7 C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php(16): Controller->__get('Tblaction')
+#8 [internal function]: TblactionsController->index()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-03-09 20:16:42 Error: [MissingBehaviorException] Behavior class SearchableBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'SearchableBehavior',
+  'plugin' => false,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Searchable', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(774): BehaviorCollection->init('Tblaction', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(741): ClassRegistry::init(Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(367): Controller->loadModel('Tblaction')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(405): Controller->__isset('Tblaction')
+#7 C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php(16): Controller->__get('Tblaction')
+#8 [internal function]: TblactionsController->index()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-03-09 20:16:43 Error: [MissingBehaviorException] Behavior class SearchableBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'SearchableBehavior',
+  'plugin' => false,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Searchable', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(774): BehaviorCollection->init('Tblaction', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(741): ClassRegistry::init(Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(367): Controller->loadModel('Tblaction')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(405): Controller->__isset('Tblaction')
+#7 C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php(16): Controller->__get('Tblaction')
+#8 [internal function]: TblactionsController->index()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-03-09 20:17:08 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'search' at line 1
+Request URL: /cakephp/tblactions/search
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('search', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('search', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(611): DboSource->fetchAll('search', Array, Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(827): DboSource->query('search', Array, Object(Tblaction))
+#5 C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php(67): Model->__call('search', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php(67): Tblaction->search('137')
+#7 [internal function]: TblactionsController->search()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-03-09 20:20:35 Error: [MissingBehaviorException] Behavior class searchableBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'searchableBehavior',
+  'plugin' => false,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('searchable', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(774): BehaviorCollection->init('Tblaction', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(741): ClassRegistry::init(Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(367): Controller->loadModel('Tblaction')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(405): Controller->__isset('Tblaction')
+#7 C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php(16): Controller->__get('Tblaction')
+#8 [internal function]: TblactionsController->index()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-03-09 20:20:41 Error: [MissingBehaviorException] Behavior class searchableBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'searchableBehavior',
+  'plugin' => false,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('searchable', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(774): BehaviorCollection->init('Tblaction', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(741): ClassRegistry::init(Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(367): Controller->loadModel('Tblaction')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(405): Controller->__isset('Tblaction')
+#7 C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php(16): Controller->__get('Tblaction')
+#8 [internal function]: TblactionsController->index()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-03-09 20:20:49 Error: [MissingBehaviorException] Behavior class SearchableBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'SearchableBehavior',
+  'plugin' => false,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Searchable', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(774): BehaviorCollection->init('Tblaction', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(741): ClassRegistry::init(Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(367): Controller->loadModel('Tblaction')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(405): Controller->__isset('Tblaction')
+#7 C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php(16): Controller->__get('Tblaction')
+#8 [internal function]: TblactionsController->index()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-03-09 20:27:18 Error: [MissingBehaviorException] Behavior class SearchableBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'SearchableBehavior',
+  'plugin' => false,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Searchable', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(774): BehaviorCollection->init('Tblaction', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(741): ClassRegistry::init(Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(367): Controller->loadModel('Tblaction')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(405): Controller->__isset('Tblaction')
+#7 C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php(16): Controller->__get('Tblaction')
+#8 [internal function]: TblactionsController->index()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-03-09 20:27:19 Error: [MissingBehaviorException] Behavior class SearchableBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'SearchableBehavior',
+  'plugin' => false,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Searchable', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(774): BehaviorCollection->init('Tblaction', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(741): ClassRegistry::init(Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(367): Controller->loadModel('Tblaction')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(405): Controller->__isset('Tblaction')
+#7 C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php(16): Controller->__get('Tblaction')
+#8 [internal function]: TblactionsController->index()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-03-09 20:27:20 Error: [MissingBehaviorException] Behavior class SearchableBehavior could not be found.
+Exception Attributes: array (
+  'class' => 'SearchableBehavior',
+  'plugin' => false,
+)
+Request URL: /cakephp/tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\BehaviorCollection.php(66): BehaviorCollection->load('Searchable', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(774): BehaviorCollection->init('Tblaction', Array)
+#2 [internal function]: Model->__construct(Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Utility\ClassRegistry.php(169): ReflectionClass->newInstance(Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(741): ClassRegistry::init(Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(367): Controller->loadModel('Tblaction')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(405): Controller->__isset('Tblaction')
+#7 C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php(16): Controller->__get('Tblaction')
+#8 [internal function]: TblactionsController->index()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-03-10 12:59:10 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'search' at line 1
+Request URL: /cakephp/tblactions/search
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('search', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('search', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(611): DboSource->fetchAll('search', Array, Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(827): DboSource->query('search', Array, Object(Tblaction))
+#5 C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php(67): Model->__call('search', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php(67): Tblaction->search('137')
+#7 [internal function]: TblactionsController->search()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-03-25 12:15:56 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'search' at line 1
+Request URL: /cakephp/tblactions/search
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('search', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('search', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(611): DboSource->fetchAll('search', Array, Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(827): DboSource->query('search', Array, Object(Tblaction))
+#5 C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php(67): Model->__call('search', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\TblactionsController.php(67): Tblaction->search('137')
+#7 [internal function]: TblactionsController->search()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-03-25 13:36:45 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-25 13:37:51 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-25 13:38:47 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-25 13:38:50 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-25 13:39:29 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-25 13:39:33 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /cakephp/users/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-25 13:39:37 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-25 19:50:40 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(227): CakePlugin::path('DebugKit')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#2 [internal function]: App::load('ToolbarComponen...')
+#3 [internal function]: spl_autoload_call('ToolbarComponen...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-25 19:50:45 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/user
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-25 19:50:50 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(227): CakePlugin::path('DebugKit')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#2 [internal function]: App::load('ToolbarComponen...')
+#3 [internal function]: spl_autoload_call('ToolbarComponen...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-25 19:50:52 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /cakephp/users/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(227): CakePlugin::path('DebugKit')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#2 [internal function]: App::load('ToolbarComponen...')
+#3 [internal function]: spl_autoload_call('ToolbarComponen...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-25 19:51:13 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(227): CakePlugin::path('DebugKit')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#2 [internal function]: App::load('ToolbarComponen...')
+#3 [internal function]: spl_autoload_call('ToolbarComponen...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-25 19:51:18 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/user
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-25 19:51:21 Error: [MissingPluginException] Plugin DebugKit could not be found.
+Exception Attributes: array (
+  'plugin' => 'DebugKit',
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(227): CakePlugin::path('DebugKit')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(549): App::path('Controller/Comp...', 'DebugKit')
+#2 [internal function]: App::load('ToolbarComponen...')
+#3 [internal function]: spl_autoload_call('ToolbarComponen...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(110): class_exists('ToolbarComponen...')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('DebugKit.Toolba...', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-03-25 19:54:15 Error: [MissingViewException] View file "Users\login.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\login.ctp',
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-25 20:48:05 Error: [MissingViewException] View file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /cakephp/dashboard
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-25 20:50:24 Error: Fatal Error (64): Cannot redeclare UsersController::login() in [C:\xampp\htdocs\cakephp\app\Controller\UsersController.php, line 39]
+2015-03-25 20:50:24 Error: [FatalErrorException] Cannot redeclare UsersController::login()
+Request URL: /cakephp/dashboard
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-25 20:50:29 Error: Fatal Error (64): Cannot redeclare UsersController::login() in [C:\xampp\htdocs\cakephp\app\Controller\UsersController.php, line 39]
+2015-03-25 20:50:29 Error: [FatalErrorException] Cannot redeclare UsersController::login()
+Request URL: /cakephp/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 39)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 39, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 39, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-25 20:50:48 Error: [MissingViewException] View file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /cakephp/dashboard
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-25 20:51:10 Error: [MissingViewException] View file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /cakephp/dashboard
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-25 20:51:12 Error: [MissingViewException] View file "Users\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\index.ctp',
+)
+Request URL: /cakephp/dashboard
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-03-25 20:52:29 Error: Fatal Error (1): Call to undefined method View::redirect() in [C:\xampp\htdocs\cakephp\app\View\Users\index.ctp, line 2]
+2015-03-25 20:52:29 Error: [FatalErrorException] Call to undefined method View::redirect()
+Request URL: /cakephp/dashboard
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 2, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 2, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-25 20:53:02 Error: Fatal Error (1): Call to undefined method View::redirect() in [C:\xampp\htdocs\cakephp\app\View\Users\index.ctp, line 2]
+2015-03-25 20:53:02 Error: [FatalErrorException] Call to undefined method View::redirect()
+Request URL: /cakephp/dashboard
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 2, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 2, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-25 20:53:04 Error: Fatal Error (1): Call to undefined method View::redirect() in [C:\xampp\htdocs\cakephp\app\View\Users\index.ctp, line 2]
+2015-03-25 20:53:04 Error: [FatalErrorException] Call to undefined method View::redirect()
+Request URL: /cakephp/dashboard
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 2, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 2, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-25 20:59:49 Error: [MissingControllerException] Controller class PoopController could not be found.
+Exception Attributes: array (
+  'class' => 'PoopController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/poop
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-25 21:01:09 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-25 21:01:25 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-25 21:01:32 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-25 21:02:19 Error: [MissingControllerException] Controller class IndexController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-25 21:19:26 Error: [MissingActionException] Action TblactionsController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'TblactionsController',
+  'action' => 'logout',
+)
+Request URL: /cakephp/tblactions/logout
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-25 21:22:09 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\cakephp\app\View\Users\index.ctp, line 4]
+2015-03-25 21:22:09 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /cakephp/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-25 21:41:33 Error: [MissingControllerException] Controller class JobController could not be found.
+Exception Attributes: array (
+  'class' => 'JobController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/job
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-25 21:41:39 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\cakephp\app\Controller\JobsController.php, line 15]
+2015-03-25 21:41:39 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cakephp/jobs
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 15, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 15, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-25 21:43:19 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\cakephp\app\Controller\JobsController.php, line 15]
+2015-03-25 21:43:19 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cakephp/jobs
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 15, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 15, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-25 21:43:26 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\cakephp\app\Controller\JobsController.php, line 15]
+2015-03-25 21:43:26 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cakephp/jobs/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 15, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 15, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-25 21:43:45 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\cakephp\app\Controller\JobsController.php, line 15]
+2015-03-25 21:43:45 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cakephp/jobs/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 15, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 15, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-25 21:43:46 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\cakephp\app\Controller\JobsController.php, line 15]
+2015-03-25 21:43:46 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cakephp/jobs/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 15, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 15, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-25 21:44:01 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\cakephp\app\Controller\JobsController.php, line 15]
+2015-03-25 21:44:01 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cakephp/jobs
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 15, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 15, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-25 21:47:28 Error: [MissingControllerException] Controller class PositionsController could not be found.
+Exception Attributes: array (
+  'class' => 'PositionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-25 21:47:43 Error: [MissingControllerException] Controller class PositionsController could not be found.
+Exception Attributes: array (
+  'class' => 'PositionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-26 00:24:42 Error: [MissingActionException] Action PositionsController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'PositionsController',
+  'action' => 'logout',
+)
+Request URL: /cakephp/positions/logout
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-26 00:30:24 Error: [MissingActionException] Action UsersController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'view',
+)
+Request URL: /cakephp/users/view
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-26 01:15:21 Error: [MissingActionException] Action TblactionsController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'TblactionsController',
+  'action' => 'logout',
+)
+Request URL: /cakephp/tblactions/logout
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-26 01:15:29 Error: [MissingActionException] Action PositionsController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'PositionsController',
+  'action' => 'logout',
+)
+Request URL: /cakephp/positions/logout
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-26 01:16:03 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\cakephp\app\Controller\UsersController.php, line 35]
+2015-03-26 01:16:03 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cakephp/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-03-26 10:15:25 Error: [MissingActionException] Action UsersController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'view',
+)
+Request URL: /cakephp/users/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-26 10:18:36 Error: [MissingActionException] Action UsersController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'view',
+)
+Request URL: /cakephp/users/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-26 10:21:26 Error: [MissingActionException] Action UsersController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'view',
+)
+Request URL: /cakephp/users/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-26 11:15:17 Error: [MissingControllerException] Controller class DefaultController could not be found.
+Exception Attributes: array (
+  'class' => 'DefaultController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/default
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-26 13:04:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-26 13:24:36 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /cakephp/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-26 13:24:56 Error: [MissingActionException] Action TblactionsController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'TblactionsController',
+  'action' => 'logout',
+)
+Request URL: /cakephp/tblactions/logout
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-26 13:25:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-26 13:25:19 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /cakephp/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-26 13:25:36 Error: [MissingActionException] Action TblactionsController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'TblactionsController',
+  'action' => 'logout',
+)
+Request URL: /cakephp/tblactions/logout
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-26 13:25:38 Error: [MissingActionException] Action TblactionsController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'TblactionsController',
+  'action' => 'logout',
+)
+Request URL: /cakephp/tblactions/logout
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-26 13:25:46 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /cakephp/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-26 13:26:38 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /cakephp/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-26 13:26:57 Error: [MissingActionException] Action UsersController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'index',
+)
+Request URL: /cakephp/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-03-30 12:15:20 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/img/cake.icon.png
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-30 21:15:34 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.html
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-30 21:16:15 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/index.html
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-03-30 22:00:40 Error: [MissingActionException] Action PositionsController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'PositionsController',
+  'action' => 'logout',
+)
+Request URL: /cakephp/positions/logout
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 00:08:54 Error: [MissingActionException] Action UsersController::tblactions() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'tblactions',
+)
+Request URL: /cakephp/users/tblactions/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 00:08:55 Error: [MissingControllerException] Controller class DistController could not be found.
+Exception Attributes: array (
+  'class' => 'DistController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/dist/js/bootstrap.min.js
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-01 00:08:55 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/assets/js/vendor/holder.js
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-01 00:08:55 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/assets/js/ie10-viewport-bug-workaround.js
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-01 22:22:48 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/Users/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(848): HelperCollection->__isset('Auth')
+#2 C:\xampp\htdocs\cakephp\app\View\Layouts\default.ctp(47): View->__get('Auth')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(481): View->renderLayout('', 'default')
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-04-01 22:23:32 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(848): HelperCollection->__isset('Auth')
+#2 C:\xampp\htdocs\cakephp\app\View\Layouts\default.ctp(47): View->__get('Auth')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(481): View->renderLayout('', 'default')
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-04-01 22:24:00 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(848): HelperCollection->__isset('Auth')
+#2 C:\xampp\htdocs\cakephp\app\View\Layouts\default.ctp(47): View->__get('Auth')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(481): View->renderLayout('', 'default')
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-04-01 22:25:11 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(848): HelperCollection->__isset('Auth')
+#2 C:\xampp\htdocs\cakephp\app\View\Layouts\default.ctp(47): View->__get('Auth')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(481): View->renderLayout('', 'default')
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-04-01 22:28:27 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(848): HelperCollection->__isset('Auth')
+#2 C:\xampp\htdocs\cakephp\app\View\Layouts\default.ctp(47): View->__get('Auth')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(481): View->renderLayout('', 'default')
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-04-01 22:29:08 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(848): HelperCollection->__isset('Auth')
+#2 C:\xampp\htdocs\cakephp\app\View\Layouts\default.ctp(47): View->__get('Auth')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(481): View->renderLayout('', 'default')
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-04-01 22:29:46 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(848): HelperCollection->__isset('Auth')
+#2 C:\xampp\htdocs\cakephp\app\View\Layouts\default.ctp(47): View->__get('Auth')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(481): View->renderLayout('', 'default')
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-04-01 22:35:00 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(848): HelperCollection->__isset('Auth')
+#2 C:\xampp\htdocs\cakephp\app\View\Layouts\default.ctp(47): View->__get('Auth')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(481): View->renderLayout('', 'default')
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-04-01 22:35:32 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(848): HelperCollection->__isset('Auth')
+#2 C:\xampp\htdocs\cakephp\app\View\Layouts\default.ctp(47): View->__get('Auth')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(481): View->renderLayout('', 'default')
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-04-01 22:35:35 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(848): HelperCollection->__isset('Auth')
+#2 C:\xampp\htdocs\cakephp\app\View\Layouts\default.ctp(47): View->__get('Auth')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(481): View->renderLayout('', 'default')
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-04-01 22:41:43 Error: Fatal Error (1): Call to undefined method SessionComponent::set() in [C:\xampp\htdocs\cakephp\app\Controller\UsersController.php, line 35]
+2015-04-01 22:41:43 Error: [FatalErrorException] Call to undefined method SessionComponent::set()
+Request URL: /cakephp/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-01 23:27:03 Error: [MissingActionException] Action UsersController::tblactions() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'tblactions',
+)
+Request URL: /cakephp/Users/tblactions/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 23:27:28 Error: [MissingActionException] Action UsersController::tblactions() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'tblactions',
+)
+Request URL: /cakephp/Users/tblactions/index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-01 23:56:36 Error: Fatal Error (1): Call to undefined function isAuthorized() in [C:\xampp\htdocs\cakephp\app\Controller\UsersController.php, line 58]
+2015-04-01 23:56:36 Error: [FatalErrorException] Call to undefined function isAuthorized()
+Request URL: /cakephp/Users/edit/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 58)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 58, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 58, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

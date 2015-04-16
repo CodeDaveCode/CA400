@@ -2461,3 +2461,1151 @@ Stack Trace:
 #3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2015-04-14 15:45:11 Error: Fatal Error (1): Call to a member function findByAlias() on null in [C:\xampp\htdocs\cakephp\app\Controller\AppController.php, line 56]
+2015-04-14 15:45:11 Error: [FatalErrorException] Call to a member function findByAlias() on null
+Request URL: /cakephp/users/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 56)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 56, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 56, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-14 15:47:49 Error: Fatal Error (1): Call to a member function findByAlias() on null in [C:\xampp\htdocs\cakephp\app\Controller\AppController.php, line 56]
+2015-04-14 15:47:49 Error: [FatalErrorException] Call to a member function findByAlias() on null
+Request URL: /cakephp/users/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 56)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 56, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 56, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-14 15:54:25 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/user/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-14 16:00:34 Error: Fatal Error (1): Call to a member function findByAlias() on null in [C:\xampp\htdocs\cakephp\app\Controller\AppController.php, line 56]
+2015-04-14 16:00:34 Error: [FatalErrorException] Call to a member function findByAlias() on null
+Request URL: /cakephp/users/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 56)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 56, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 56, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-14 16:44:34 Error: [MissingActionException] Action UsersController::install() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'install',
+)
+Request URL: /cakephp/users/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-15 13:12:23 Error: [MissingViewException] View file "Users\install.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\install.ctp',
+)
+Request URL: /cakephp/users/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-15 13:16:58 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-15 13:18:35 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-15 13:18:51 Error: [MissingViewException] View file "Users\install.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\install.ctp',
+)
+Request URL: /cakephp/users/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-15 13:19:28 Error: [MissingViewException] View file "Users\install.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\install.ctp',
+)
+Request URL: /cakephp/users/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-15 13:19:54 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-15 13:20:02 Error: [MissingViewException] View file "Users\install.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\install.ctp',
+)
+Request URL: /cakephp/users/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-15 13:21:26 Error: [MissingViewException] View file "Users\install.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\install.ctp',
+)
+Request URL: /cakephp/users/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-15 13:24:56 Error: [MissingViewException] View file "Users\install.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\install.ctp',
+)
+Request URL: /cakephp/users/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-15 13:38:14 Error: [MissingViewException] View file "Users\install.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\install.ctp',
+)
+Request URL: /cakephp/users/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-15 13:38:33 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-15 13:40:18 Error: [MissingViewException] View file "Users\install.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\install.ctp',
+)
+Request URL: /cakephp/users/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-15 13:40:18 Error: [MissingViewException] View file "Users\install.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\install.ctp',
+)
+Request URL: /cakephp/users/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-15 13:41:51 Error: [MissingViewException] View file "Users\install.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\install.ctp',
+)
+Request URL: /cakephp/users/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-15 13:42:46 Error: [MissingViewException] View file "Users\install.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\install.ctp',
+)
+Request URL: /cakephp/users/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-15 13:47:19 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-15 13:47:42 Error: [MissingViewException] View file "Users\install.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\install.ctp',
+)
+Request URL: /cakephp/users/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-15 14:30:47 Error: Fatal Error (1): Cannot use object of type User as array in [C:\xampp\htdocs\cakephp\app\Controller\UsersController.php, line 7]
+2015-04-15 14:30:47 Error: [FatalErrorException] Cannot use object of type User as array
+Request URL: /cakephp/Users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'C:\\xampp\\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'C:\\xampp\\htdocs...', 7, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'C:\\xampp\\htdocs...', 7, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-15 14:30:50 Error: Fatal Error (1): Cannot use object of type User as array in [C:\xampp\htdocs\cakephp\app\Controller\UsersController.php, line 7]
+2015-04-15 14:30:50 Error: [FatalErrorException] Cannot use object of type User as array
+Request URL: /cakephp/Users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'C:\\xampp\\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'C:\\xampp\\htdocs...', 7, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'C:\\xampp\\htdocs...', 7, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-15 14:30:54 Error: Fatal Error (1): Cannot use object of type User as array in [C:\xampp\htdocs\cakephp\app\Controller\UsersController.php, line 7]
+2015-04-15 14:30:54 Error: [FatalErrorException] Cannot use object of type User as array
+Request URL: /cakephp/Users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'C:\\xampp\\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'C:\\xampp\\htdocs...', 7, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'C:\\xampp\\htdocs...', 7, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-15 14:31:40 Error: Fatal Error (1): Cannot use object of type UsersController as array in [C:\xampp\htdocs\cakephp\app\Controller\UsersController.php, line 7]
+2015-04-15 14:31:40 Error: [FatalErrorException] Cannot use object of type UsersController as array
+Request URL: /cakephp/Users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Cannot use obje...', 'C:\\xampp\\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', 'C:\\xampp\\htdocs...', 7, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', 'C:\\xampp\\htdocs...', 7, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-15 15:32:10 Error: Fatal Error (1): Call to a member function check() on null in [C:\xampp\htdocs\cakephp\app\Controller\UsersController.php, line 71]
+2015-04-15 15:32:10 Error: [FatalErrorException] Call to a member function check() on null
+Request URL: /cakephp/users/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 71)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 71, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 71, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-15 15:32:53 Error: Fatal Error (1): Call to a member function check() on null in [C:\xampp\htdocs\cakephp\app\Controller\UsersController.php, line 77]
+2015-04-15 15:32:53 Error: [FatalErrorException] Call to a member function check() on null
+Request URL: /cakephp/users/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 77)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 77, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 77, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-15 15:32:58 Error: Fatal Error (1): Call to a member function check() on null in [C:\xampp\htdocs\cakephp\app\Controller\UsersController.php, line 77]
+2015-04-15 15:32:58 Error: [FatalErrorException] Call to a member function check() on null
+Request URL: /cakephp/users/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 77)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 77, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 77, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-15 15:43:28 Error: Fatal Error (1): Call to a member function check() on null in [C:\xampp\htdocs\cakephp\app\Controller\UsersController.php, line 69]
+2015-04-15 15:43:28 Error: [FatalErrorException] Call to a member function check() on null
+Request URL: /cakephp/Users/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 69)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 69, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 69, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-15 15:43:57 Error: [MissingViewException] View file "Users\edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\edit.ctp',
+)
+Request URL: /cakephp/Users/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-15 17:29:06 Error: [MissingViewException] View file "Users\edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\edit.ctp',
+)
+Request URL: /cakephp/Users/edit/6
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-15 18:08:27 Error: [MissingTableException] Table aros for model Aro was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'aros',
+  'class' => 'Aro',
+  'ds' => 'default',
+)
+Request URL: /cakephp/Users/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3644): Model->setSource('aros')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(827): Model->getDataSource()
+#2 C:\xampp\htdocs\cakephp\app\Controller\AppController.php(57): Model->__call('findByAlias', Array)
+#3 C:\xampp\htdocs\cakephp\app\Controller\AppController.php(57): Aro->findByAlias('INTRA')
+#4 [internal function]: AppController->install()
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#8 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2015-04-15 18:09:54 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-15 18:10:46 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-15 18:12:11 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-15 18:12:47 Error: [MissingViewException] View file "Users\install.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\install.ctp',
+)
+Request URL: /cakephp/users/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 10:46:31 Error: Fatal Error (1): Call to a member function check() on null in [C:\xampp\htdocs\cakephp\app\Controller\UsersController.php, line 43]
+2015-04-16 10:46:31 Error: [FatalErrorException] Call to a member function check() on null
+Request URL: /cakephp/users/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 43, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 43, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-16 10:55:07 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/users/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 11:00:59 Error: Fatal Error (1): Call to a member function check() on null in [C:\xampp\htdocs\cakephp\app\Controller\UsersController.php, line 44]
+2015-04-16 11:00:59 Error: [FatalErrorException] Call to a member function check() on null
+Request URL: /cakephp/users/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 44)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 44, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 44, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-16 11:17:32 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/users/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 11:29:05 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/users/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 11:29:09 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/users/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 13:19:52 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-16 13:20:12 Error: [MissingViewException] View file "Users\install.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\install.ctp',
+)
+Request URL: /cakephp/users/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 13:35:50 Error: [AclException] Invalid permission key "_*"
+Request URL: /cakephp/users/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Component\Acl\DbAcl.php(88): Permission->allow('support', 'User', Array, 1)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Component\AclComponent.php(123): DbAcl->allow('support', 'User', Array)
+#2 C:\xampp\htdocs\cakephp\app\Controller\AppController.php(147): AclComponent->allow('support', 'User', Array)
+#3 [internal function]: AppController->install()
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#7 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2015-04-16 13:39:54 Error: [MissingViewException] View file "Users\install.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\install.ctp',
+)
+Request URL: /cakephp/users/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 15:01:42 Error: Fatal Error (1): Call to a member function check() on null in [C:\xampp\htdocs\cakephp\app\Controller\UsersController.php, line 42]
+2015-04-16 15:01:42 Error: [FatalErrorException] Call to a member function check() on null
+Request URL: /cakephp/Users/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 42)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 42, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 42, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-16 15:02:10 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Users/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 15:09:31 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Users/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 15:22:30 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Users/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 15:22:37 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Users/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 15:34:45 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Users/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 15:35:15 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Users/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 15:43:10 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Users/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 15:44:45 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Users/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 15:44:53 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Users/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 15:45:00 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Users/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 15:45:20 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Users/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 15:45:23 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Users/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 15:46:34 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 15:48:28 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 15:48:48 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 15:48:51 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 15:48:54 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 15:49:05 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 15:58:45 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 15:58:48 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 15:59:03 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 15:59:06 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(TblactionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 15:59:07 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PositionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 15:59:08 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 15:59:23 Error: Fatal Error (1): Call to a member function check() on null in [C:\xampp\htdocs\cakephp\app\Controller\UsersController.php, line 41]
+2015-04-16 15:59:23 Error: [FatalErrorException] Call to a member function check() on null
+Request URL: /cakephp/Users/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 41)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 41, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 41, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-16 16:00:17 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Users/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 16:01:28 Error: Fatal Error (1): Call to a member function check() on null in [C:\xampp\htdocs\cakephp\app\Controller\UsersController.php, line 41]
+2015-04-16 16:01:28 Error: [FatalErrorException] Call to a member function check() on null
+Request URL: /cakephp/Users/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 41)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 41, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 41, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-16 16:22:47 Error: Fatal Error (1): Call to a member function check() on null in [C:\xampp\htdocs\cakephp\app\Controller\UsersController.php, line 41]
+2015-04-16 16:22:47 Error: [FatalErrorException] Call to a member function check() on null
+Request URL: /cakephp/Users/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 41)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 41, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 41, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-16 16:22:52 Error: Fatal Error (1): Call to a member function check() on null in [C:\xampp\htdocs\cakephp\app\Controller\UsersController.php, line 41]
+2015-04-16 16:22:52 Error: [FatalErrorException] Call to a member function check() on null
+Request URL: /cakephp/Users/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 41)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 41, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 41, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-16 16:23:18 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Users/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 16:23:30 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Users/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 16:23:34 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Users/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 16:24:39 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Users/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 16:24:41 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 16:24:43 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(TblactionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 16:24:44 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(TblactionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 16:30:15 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(TblactionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 16:30:20 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(TblactionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 16:31:11 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(TblactionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 16:31:14 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(TblactionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 16:31:51 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(TblactionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 16:31:54 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Users
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 16:31:55 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(TblactionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 16:37:03 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(TblactionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 16:37:05 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Tblactions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(TblactionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 16:40:24 Error: [MissingViewException] View file "Users\edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\edit.ctp',
+)
+Request URL: /cakephp/Users/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 16:43:37 Error: [MissingViewException] View file "Users\edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\edit.ctp',
+)
+Request URL: /cakephp/Users/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 16:43:57 Error: [MissingViewException] View file "Users\edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\edit.ctp',
+)
+Request URL: /cakephp/Users/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-16 16:45:47 Error: [MissingViewException] View file "Users\edit.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\edit.ctp',
+)
+Request URL: /cakephp/Users/edit/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

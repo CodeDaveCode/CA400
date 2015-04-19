@@ -3609,3 +3609,983 @@ Stack Trace:
 #3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
 #4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2015-04-17 16:06:29 Error: [MissingActionException] Action PositionsController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'PositionsController',
+  'action' => 'logout',
+)
+Request URL: /cakephp/Positions/logout
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-17 16:06:32 Error: [MissingActionException] Action PositionsController::logout() could not be found.
+Exception Attributes: array (
+  'controller' => 'PositionsController',
+  'action' => 'logout',
+)
+Request URL: /cakephp/Positions/logout
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-17 16:27:14 Error: [MissingActionException] Action UsersController::intra_index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'intra_index',
+)
+Request URL: /cakephp/users/intra_index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-17 16:27:15 Error: [MissingActionException] Action UsersController::intra_index() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'intra_index',
+)
+Request URL: /cakephp/users/intra_index
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-17 17:39:06 Error: Fatal Error (1): Call to undefined function index_intra() in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 23]
+2015-04-17 17:39:07 Error: [FatalErrorException] Call to undefined function index_intra()
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 23, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 23, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 17:39:07 Error: Fatal Error (1): Call to undefined function index_intra() in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 23]
+2015-04-17 17:39:07 Error: [FatalErrorException] Call to undefined function index_intra()
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 23, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 23, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 17:41:53 Error: Fatal Error (1): Call to undefined function index_intra() in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 28]
+2015-04-17 17:41:53 Error: [FatalErrorException] Call to undefined function index_intra()
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 28, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 28, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 17:41:54 Error: Fatal Error (1): Call to undefined function index_intra() in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 28]
+2015-04-17 17:41:54 Error: [FatalErrorException] Call to undefined function index_intra()
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 28)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 28, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 28, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 17:42:11 Error: Fatal Error (1): Call to undefined function index_intra() in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 23]
+2015-04-17 17:42:11 Error: [FatalErrorException] Call to undefined function index_intra()
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 23, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 23, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 17:42:12 Error: Fatal Error (1): Call to undefined function index_intra() in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 23]
+2015-04-17 17:42:12 Error: [FatalErrorException] Call to undefined function index_intra()
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 23, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 23, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 19:15:34 Error: Fatal Error (1): Call to undefined method SessionComponent::print() in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 35]
+2015-04-17 19:15:34 Error: [FatalErrorException] Call to undefined method SessionComponent::print()
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 19:15:35 Error: Fatal Error (1): Call to undefined method SessionComponent::print() in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 35]
+2015-04-17 19:15:35 Error: [FatalErrorException] Call to undefined method SessionComponent::print()
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 19:16:15 Error: Fatal Error (1): Call to undefined method SessionComponent::display() in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 35]
+2015-04-17 19:16:15 Error: [FatalErrorException] Call to undefined method SessionComponent::display()
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 19:16:16 Error: Fatal Error (1): Call to undefined method SessionComponent::display() in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 35]
+2015-04-17 19:16:16 Error: [FatalErrorException] Call to undefined method SessionComponent::display()
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 19:16:38 Error: Fatal Error (1): Call to undefined method SessionComponent::find() in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 35]
+2015-04-17 19:16:38 Error: [FatalErrorException] Call to undefined method SessionComponent::find()
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 19:16:39 Error: Fatal Error (1): Call to undefined method SessionComponent::find() in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 35]
+2015-04-17 19:16:39 Error: [FatalErrorException] Call to undefined method SessionComponent::find()
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 19:21:09 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(848): HelperCollection->__isset('Auth')
+#2 C:\xampp\htdocs\cakephp\app\View\Positions\index.ctp(4): View->__get('Auth')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-04-17 19:25:52 Error: Fatal Error (1): Call to undefined method AclComponent::read() in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 19]
+2015-04-17 19:25:52 Error: [FatalErrorException] Call to undefined method AclComponent::read()
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 19:25:53 Error: Fatal Error (1): Call to undefined method AclComponent::read() in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 19]
+2015-04-17 19:25:53 Error: [FatalErrorException] Call to undefined method AclComponent::read()
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 19:26:43 Error: Fatal Error (1): Call to undefined method AuthComponent::read() in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 19]
+2015-04-17 19:26:43 Error: [FatalErrorException] Call to undefined method AuthComponent::read()
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 19:26:44 Error: Fatal Error (1): Call to undefined method AuthComponent::read() in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 19]
+2015-04-17 19:26:44 Error: [FatalErrorException] Call to undefined method AuthComponent::read()
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 19:26:51 Error: Fatal Error (1): Call to undefined method PositionsController::read() in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 19]
+2015-04-17 19:26:51 Error: [FatalErrorException] Call to undefined method PositionsController::read()
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 19:26:51 Error: Fatal Error (1): Call to undefined method PositionsController::read() in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 19]
+2015-04-17 19:26:51 Error: [FatalErrorException] Call to undefined method PositionsController::read()
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 19, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 19:27:39 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 34]
+2015-04-17 19:27:39 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 34, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 34, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 19:27:39 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 34]
+2015-04-17 19:27:39 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 34, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 34, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 19:30:41 Error: Fatal Error (1): Call to undefined function index_intra() in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 21]
+2015-04-17 19:30:41 Error: [FatalErrorException] Call to undefined function index_intra()
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 21, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 21, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 19:30:41 Error: Fatal Error (1): Call to undefined function index_intra() in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 21]
+2015-04-17 19:30:41 Error: [FatalErrorException] Call to undefined function index_intra()
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 21, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', 'C:\\xampp\\htdocs...', 21, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 19:32:10 Error: [MissingControllerException] Controller class PositionsController could not be found.
+Exception Attributes: array (
+  'class' => 'PositionsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Positions/index/position:index_intra
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 20:17:05 Error: [MissingViewException] View file "Users\install.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\install.ctp',
+)
+Request URL: /cakephp/Users/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-17 20:29:29 Error: Fatal Error (4): syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM) in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 42]
+2015-04-17 20:29:29 Error: [FatalErrorException] syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM)
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 42, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 42, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 20:29:30 Error: Fatal Error (4): syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM) in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 42]
+2015-04-17 20:29:30 Error: [FatalErrorException] syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM)
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 42, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 42, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-17 20:34:23 Error: [MissingActionException] Action PositionsController::sdksjds() could not be found.
+Exception Attributes: array (
+  'controller' => 'PositionsController',
+  'action' => 'sdksjds',
+)
+Request URL: /cakephp/positions/sdksjds
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-17 20:34:23 Error: [MissingActionException] Action PositionsController::sdksjds() could not be found.
+Exception Attributes: array (
+  'controller' => 'PositionsController',
+  'action' => 'sdksjds',
+)
+Request URL: /cakephp/positions/sdksjds
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-17 20:34:31 Error: [MissingControllerException] Controller class DfdsfddfsController could not be found.
+Exception Attributes: array (
+  'class' => 'DfdsfddfsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/dfdsfddfs
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-17 20:34:31 Error: [MissingControllerException] Controller class DfdsfddfsController could not be found.
+Exception Attributes: array (
+  'class' => 'DfdsfddfsController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/dfdsfddfs
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-18 00:18:39 Error: [MissingActionException] Action PositionsController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'PositionsController',
+  'action' => 'webroot',
+)
+Request URL: /cakephp/positions/webroot/img/DCU_INTRA_Logo.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-18 00:18:40 Error: [MissingActionException] Action PositionsController::webroot() could not be found.
+Exception Attributes: array (
+  'controller' => 'PositionsController',
+  'action' => 'webroot',
+)
+Request URL: /cakephp/positions/webroot/img/DCU_INTRA_Logo.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-04-18 00:18:45 Error: [MissingControllerException] Controller class WebrootController could not be found.
+Exception Attributes: array (
+  'class' => 'WebrootController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/webroot/img/DCU_INTRA_Logo.jpg
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-04-19 12:36:23 Error: [MissingViewException] View file "Positions\apply.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Positions\\apply.ctp',
+)
+Request URL: /cakephp/positions/apply/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-19 12:36:23 Error: [MissingViewException] View file "Positions\apply.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Positions\\apply.ctp',
+)
+Request URL: /cakephp/positions/apply/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-19 12:41:18 Error: [MissingViewException] View file "Positions\apply.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Positions\\apply.ctp',
+)
+Request URL: /cakephp/positions/apply/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-19 12:41:19 Error: [MissingViewException] View file "Positions\apply.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Positions\\apply.ctp',
+)
+Request URL: /cakephp/positions/apply/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-19 12:51:54 Error: [MissingViewException] View file "Positions\apply.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Positions\\apply.ctp',
+)
+Request URL: /cakephp/positions/apply/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-19 12:51:54 Error: [MissingViewException] View file "Positions\apply.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Positions\\apply.ctp',
+)
+Request URL: /cakephp/positions/apply/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-19 12:55:50 Error: [MissingViewException] View file "Positions\apply.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Positions\\apply.ctp',
+)
+Request URL: /cakephp/positions/apply/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-19 12:55:51 Error: [MissingViewException] View file "Positions\apply.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Positions\\apply.ctp',
+)
+Request URL: /cakephp/positions/apply/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-19 12:58:33 Error: Fatal Error (1): Call to a member function link() on null in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 155]
+2015-04-19 12:58:33 Error: [FatalErrorException] Call to a member function link() on null
+Request URL: /cakephp/positions/apply/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 155)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 155, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 155, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-19 12:58:34 Error: Fatal Error (1): Call to a member function link() on null in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 155]
+2015-04-19 12:58:34 Error: [FatalErrorException] Call to a member function link() on null
+Request URL: /cakephp/positions/apply/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 155)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 155, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 155, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-19 13:32:04 Error: Fatal Error (1): Class 'applicant' not found in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 155]
+2015-04-19 13:32:04 Error: [FatalErrorException] Class 'applicant' not found
+Request URL: /cakephp/positions/apply/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'applican...', 'C:\\xampp\\htdocs...', 155)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'applican...', 'C:\\xampp\\htdocs...', 155, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'applican...', 'C:\\xampp\\htdocs...', 155, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-19 13:32:05 Error: Fatal Error (1): Class 'applicant' not found in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 155]
+2015-04-19 13:32:05 Error: [FatalErrorException] Class 'applicant' not found
+Request URL: /cakephp/positions/apply/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'applican...', 'C:\\xampp\\htdocs...', 155)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'applican...', 'C:\\xampp\\htdocs...', 155, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'applican...', 'C:\\xampp\\htdocs...', 155, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-19 14:28:11 Error: Fatal Error (1): Class 'applicant' not found in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 155]
+2015-04-19 14:28:11 Error: [FatalErrorException] Class 'applicant' not found
+Request URL: /cakephp/positions/apply/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'applican...', 'C:\\xampp\\htdocs...', 155)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'applican...', 'C:\\xampp\\htdocs...', 155, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'applican...', 'C:\\xampp\\htdocs...', 155, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-19 14:28:12 Error: Fatal Error (1): Class 'applicant' not found in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 155]
+2015-04-19 14:28:12 Error: [FatalErrorException] Class 'applicant' not found
+Request URL: /cakephp/positions/apply/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'applican...', 'C:\\xampp\\htdocs...', 155)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'applican...', 'C:\\xampp\\htdocs...', 155, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'applican...', 'C:\\xampp\\htdocs...', 155, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-19 15:15:20 Error: Fatal Error (64): Cannot redeclare class Position in [C:\xampp\htdocs\cakephp\app\Model\Applicant.php, line 6]
+2015-04-19 15:15:20 Error: [FatalErrorException] Cannot redeclare class Position
+Request URL: /cakephp/Applicants/view
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 6)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 6, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 6, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-19 15:15:21 Error: Fatal Error (64): Cannot redeclare class Position in [C:\xampp\htdocs\cakephp\app\Model\Applicant.php, line 6]
+2015-04-19 15:15:21 Error: [FatalErrorException] Cannot redeclare class Position
+Request URL: /cakephp/Applicants/view
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 6)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 6, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 6, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-19 15:15:25 Error: Fatal Error (64): Cannot redeclare class Position in [C:\xampp\htdocs\cakephp\app\Model\Applicant.php, line 6]
+2015-04-19 15:15:25 Error: [FatalErrorException] Cannot redeclare class Position
+Request URL: /cakephp/Applicants/view
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 6)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 6, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 6, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-19 15:15:25 Error: Fatal Error (64): Cannot redeclare class Position in [C:\xampp\htdocs\cakephp\app\Model\Applicant.php, line 6]
+2015-04-19 15:15:25 Error: [FatalErrorException] Cannot redeclare class Position
+Request URL: /cakephp/Applicants/view
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 6)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 6, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', 'C:\\xampp\\htdocs...', 6, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-19 16:07:42 Error: [MissingViewException] View file "Applicants\index_student.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Applicants\\index_student.ctp',
+)
+Request URL: /cakephp/applicants/index_student
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-19 16:07:42 Error: [MissingViewException] View file "Applicants\index_student.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Applicants\\index_student.ctp',
+)
+Request URL: /cakephp/applicants/index_student
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-19 16:08:15 Error: [MissingViewException] View file "Applicants\index_intra.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Applicants\\index_intra.ctp',
+)
+Request URL: /cakephp/applicants/index_intra
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-19 16:08:15 Error: [MissingViewException] View file "Applicants\index_intra.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Applicants\\index_intra.ctp',
+)
+Request URL: /cakephp/applicants/index_intra
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-19 16:08:41 Error: [MissingViewException] View file "Applicants\index_intra.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Applicants\\index_intra.ctp',
+)
+Request URL: /cakephp/applicants/index_intra
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-19 16:08:42 Error: [MissingViewException] View file "Applicants\index_intra.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Applicants\\index_intra.ctp',
+)
+Request URL: /cakephp/applicants/index_intra
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-19 16:25:32 Error: [MissingHelperException] Helper class UserHelper could not be found.
+Exception Attributes: array (
+  'class' => 'UserHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/Applicants/view/11
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('User')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(848): HelperCollection->__isset('User')
+#2 C:\xampp\htdocs\cakephp\app\View\Applicants\view.ctp(1): View->__get('User')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-04-19 18:03:40 Error: [MissingHelperException] Helper class ApplicantHelper could not be found.
+Exception Attributes: array (
+  'class' => 'ApplicantHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/Applicants/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Applicant')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(848): HelperCollection->__isset('Applicant')
+#2 C:\xampp\htdocs\cakephp\app\View\Applicants\add.ctp(4): View->__get('Applicant')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-04-19 18:04:54 Error: [MissingHelperException] Helper class ApplicantHelper could not be found.
+Exception Attributes: array (
+  'class' => 'ApplicantHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/Applicants/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Applicant')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(848): HelperCollection->__isset('Applicant')
+#2 C:\xampp\htdocs\cakephp\app\View\Applicants\add.ctp(4): View->__get('Applicant')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-04-19 18:08:05 Error: [MissingHelperException] Helper class ApplicantHelper could not be found.
+Exception Attributes: array (
+  'class' => 'ApplicantHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/Applicants/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Applicant')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(848): HelperCollection->__isset('Applicant')
+#2 C:\xampp\htdocs\cakephp\app\View\Applicants\add.ctp(4): View->__get('Applicant')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-04-19 18:08:54 Error: [MissingHelperException] Helper class applicantHelper could not be found.
+Exception Attributes: array (
+  'class' => 'applicantHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/Applicants/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('applicant')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(848): HelperCollection->__isset('applicant')
+#2 C:\xampp\htdocs\cakephp\app\View\Applicants\add.ctp(4): View->__get('applicant')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-04-19 18:33:08 Error: Fatal Error (1): Call to a member function getDataSource() on null in [C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php, line 112]
+2015-04-19 18:33:08 Error: [FatalErrorException] Call to a member function getDataSource() on null
+Request URL: /cakephp/applicants/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 112)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 112, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 112, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-19 23:29:41 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /cakephp/applicants/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `te...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `te...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1928): DboSource->create(Object(Applicant), Array, Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(101): Model->save(Array, false)
+#6 [internal function]: ApplicantsController->add()
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-04-19 23:34:18 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'positionID' cannot be null
+Request URL: /cakephp/applicants/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `te...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `te...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1928): DboSource->create(Object(Applicant), Array, Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(101): Model->save(Array, false)
+#6 [internal function]: ApplicantsController->add()
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-04-19 23:34:53 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'positionID' cannot be null
+Request URL: /cakephp/applicants/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `te...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `te...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1928): DboSource->create(Object(Applicant), Array, Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(101): Model->save(Array, false)
+#6 [internal function]: ApplicantsController->add()
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-04-19 23:34:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Applicant.id' in 'where clause'
+Request URL: /cakephp/Applicants/view/121
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1630): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(93): Model->read(NULL, '121')
+#8 [internal function]: ApplicantsController->view('121')
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-19 23:34:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Applicant.id' in 'where clause'
+Request URL: /cakephp/Applicants/view/121
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1630): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(93): Model->read(NULL, '121')
+#8 [internal function]: ApplicantsController->view('121')
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-19 23:35:27 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /cakephp/applicants/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `te...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `te...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1928): DboSource->create(Object(Applicant), Array, Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(101): Model->save(Array, false)
+#6 [internal function]: ApplicantsController->add()
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-04-19 23:35:37 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Applicant.id' in 'where clause'
+Request URL: /cakephp/Applicants/view/121
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1630): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(93): Model->read(NULL, '121')
+#8 [internal function]: ApplicantsController->view('121')
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-19 23:35:38 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Applicant.id' in 'where clause'
+Request URL: /cakephp/Applicants/view/121
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1630): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(93): Model->read(NULL, '121')
+#8 [internal function]: ApplicantsController->view('121')
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-19 23:43:44 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Applicant.id' in 'where clause'
+Request URL: /cakephp/Applicants/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1630): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(93): Model->read(NULL, '1')
+#8 [internal function]: ApplicantsController->view('1')
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-19 23:43:44 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Applicant.id' in 'where clause'
+Request URL: /cakephp/Applicants/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1630): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(93): Model->read(NULL, '1')
+#8 [internal function]: ApplicantsController->view('1')
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-20 00:18:15 Error: Fatal Error (1): Class 'Applicant' not found in [C:\xampp\htdocs\cakephp\app\View\Applicants\add.ctp, line 14]
+2015-04-20 00:18:15 Error: [FatalErrorException] Class 'Applicant' not found
+Request URL: /cakephp/Applicants/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Applican...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Applican...', 'C:\\xampp\\htdocs...', 14, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'Applican...', 'C:\\xampp\\htdocs...', 14, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-20 00:18:15 Error: Fatal Error (1): Class 'Applicant' not found in [C:\xampp\htdocs\cakephp\app\View\Applicants\add.ctp, line 14]
+2015-04-20 00:18:15 Error: [FatalErrorException] Class 'Applicant' not found
+Request URL: /cakephp/Applicants/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Applican...', 'C:\\xampp\\htdocs...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Applican...', 'C:\\xampp\\htdocs...', 14, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'Applican...', 'C:\\xampp\\htdocs...', 14, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-20 00:21:55 Error: [MissingHelperException] Helper class UserHelper could not be found.
+Exception Attributes: array (
+  'class' => 'UserHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/Applicants/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('User')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(848): HelperCollection->__isset('User')
+#2 C:\xampp\htdocs\cakephp\app\View\Applicants\add.ctp(18): View->__get('User')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2015-04-20 00:22:17 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /cakephp/Applicants/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Auth')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(848): HelperCollection->__isset('Auth')
+#2 C:\xampp\htdocs\cakephp\app\View\Applicants\add.ctp(15): View->__get('Auth')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}

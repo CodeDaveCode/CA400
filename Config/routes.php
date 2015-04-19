@@ -41,7 +41,6 @@ Router::connect('/login', array('controller' => 'users', 'action' => 'login'));
 Router::connect('/logout', array('controller' => 'users', 'action' => 'logout'));
 
 
-
 /**
  * Load the CakePHP default routes. Only remove this if you do not want to use
  * the built-in default routes.

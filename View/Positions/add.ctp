@@ -10,5 +10,6 @@ echo $this->Form->input('Closing');
 
 echo $this->Form->end('Create new position');
 echo $this->Html->link('Back', array('action'=>'index'));
+echo $this->element('sql_dump');
 
 ?>

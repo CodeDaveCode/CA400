@@ -49,13 +49,13 @@ class UsersController extends AppController {
     }
 
     public function add() {
-        $user = $this->Auth->user();
+       /* $user = $this->Auth->user();
         if(!$this->Acl->check($user['role'], 'User', 'create'))
             //if(!$this->Access->check('User', 'view'))
         {
             die('You are not authorized ');
         }
-        else {
+        else {*/
             if ($this->request->is('post')) {
 
                 $this->User->create();
@@ -69,7 +69,7 @@ class UsersController extends AppController {
                         'model' => 'User',
                         'foreign_key' => $this->User->id,
                         'parent_id' => $parent['Aro']['id'],
-                        'alias' => 'Student::' . $this->User->id
+                        'alias' => $this->User->role
                     ));
 
                     $this->Session->setFlash(__('The user has been created'));
@@ -79,7 +79,7 @@ class UsersController extends AppController {
                 }
             }
         }
-    }
+
 
     public function edit($id = null) {
         $user = $this->Auth->user();

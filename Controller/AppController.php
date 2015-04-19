@@ -32,7 +32,6 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller
 {
-
     public $components = array(
         //'DebugKit.Toolbar',
         'Session',
@@ -132,9 +131,19 @@ class AppController extends Controller
             'alias' => 'Action'
         ));
 
+        $aco->create();
+        $aco->save(array(
+            'model' => 'Applicant',
+            'foreign_key' => null,
+            'parent_id' => null,
+            'alias' => 'Applicant'
+        ));
+
         $this->Acl->allow('intra', 'User', '*');
         $this->Acl->allow('intra', 'Position', '*');
         $this->Acl->allow('intra', 'Action', '*');
+        $this->Acl->allow('intra', 'Applicant', '*');
+
 
         $this->Acl->allow('student', 'User', array('create','read'));
         $this->Acl->allow('student', 'Position', array('read'));
@@ -147,6 +156,7 @@ class AppController extends Controller
         $this->Acl->allow('support', 'User', '*');
         $this->Acl->allow('support', 'Position', '*');
         $this->Acl->allow('support', 'Action', '*');
+        $this->Acl->allow('support', 'Applicant', '*');
 
     }
 

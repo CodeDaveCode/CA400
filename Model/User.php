@@ -1,7 +1,8 @@
 <?php
 App::uses('AuthComponent', 'Controller/Component');
 
-class User extends AppModel {
+class User extends AppModel
+{
 
     public $avatarUploadDir = 'img/avatars';
     var $name = 'User';
@@ -71,7 +72,6 @@ class User extends AppModel {
             )
         ),
 
-
         'password_update' => array(
             'min_length' => array(
                 'rule' => array('minLength', '6'),
@@ -87,17 +87,10 @@ class User extends AppModel {
                 'required' => false,
             )
         )
-
-
     );
 
-    /**
-     * Before isUniqueUsername
-     * @param array $options
-     * @return boolean
-     */
-    function isUniqueUsername($check) {
-
+    function isUniqueUsername($check)
+    {
         $username = $this->find(
             'first',
             array(
@@ -111,24 +104,25 @@ class User extends AppModel {
             )
         );
 
-        if(!empty($username)){
-            if($this->data[$this->alias]['id'] == $username['User']['id']){
+        if(!empty($username))
+        {
+            if($this->data[$this->alias]['id'] == $username['User']['id'])
+            {
                 return true;
-            }else{
+            }
+            else
+            {
                 return false;
             }
-        }else{
+        }
+        else
+        {
             return true;
         }
     }
 
-    /**
-     * Before isUniqueEmail
-     * @param array $options
-     * @return boolean
-     */
-    function isUniqueEmail($check) {
-
+    function isUniqueEmail($check)
+    {
         $email = $this->find(
             'first',
             array(
@@ -141,18 +135,25 @@ class User extends AppModel {
             )
         );
 
-        if(!empty($email)){
-            if($this->data[$this->alias]['id'] == $email['User']['id']){
+        if(!empty($email))
+        {
+            if($this->data[$this->alias]['id'] == $email['User']['id'])
+            {
                 return true;
-            }else{
+            }
+            else
+            {
                 return false;
             }
-        }else{
+        }
+        else
+        {
             return true;
         }
     }
 
-    public function alphaNumericDashUnderscore($check) {
+    public function alphaNumericDashUnderscore($check)
+    {
         // $data array is passed using the form field name as the key
         // have to extract the value to make the function generic
         $value = array_values($check);
@@ -172,14 +173,11 @@ class User extends AppModel {
         return $this->data[$this->name][$otherfield] === $this->data[$this->name][$fname];
     }
 
-    /**
-     * Before Save
-     * @param array $options
-     * @return boolean
-     */
-    public function beforeSave($options = array()) {
+    public function beforeSave($options = array())
+    {
         // hash our password
-        if (isset($this->data[$this->alias]['password'])) {
+        if (isset($this->data[$this->alias]['password']))
+        {
             $this->data[$this->alias]['password'] = AuthComponent::password($this->data[$this->alias]['password']);
         }
 
@@ -191,7 +189,5 @@ class User extends AppModel {
         // fallback to our parent
         return parent::beforeSave($options);
     }
-
-
 
 }

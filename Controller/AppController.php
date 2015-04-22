@@ -50,6 +50,29 @@ class AppController extends Controller
    // public function isAuthorized($user) {
     //    return true;
    // }
+    function index()
+    {
+        //$this->set('positions', $this->Position->find('all'));
+        //$this->set('title_for_layout', 'Positions');
+        switch ($this->Session->read('Auth.User.role'))
+        {
+            case "intra":
+                $this->redirect('index_intra');
+                break;
+            case "student":
+                $this->redirect('index_student');
+                break;
+            case "employer":
+                $this->redirect('index_employer');
+                break;
+            case "support":
+                $this->redirect('index_support');
+                break;
+            default:
+                echo "Your user role is not available ".$this->Session->read('Auth.User.role');
+        }
+    }
+
 
     function install()
     {
@@ -139,11 +162,19 @@ class AppController extends Controller
             'alias' => 'Applicant'
         ));
 
+        $aco->create();
+        $aco->save(array(
+            'model' => 'Profile',
+            'foreign_key' => null,
+            'parent_id' => null,
+            'alias' => 'Profile'
+        ));
+
         $this->Acl->allow('intra', 'User', '*');
         $this->Acl->allow('intra', 'Position', '*');
         $this->Acl->allow('intra', 'Action', '*');
         $this->Acl->allow('intra', 'Applicant', '*');
-
+        $this->Acl->allow('intra', 'Profile', '*');
 
         $this->Acl->allow('student', 'User', array('create','read'));
         $this->Acl->allow('student', 'Position', array('read'));
@@ -157,8 +188,8 @@ class AppController extends Controller
         $this->Acl->allow('support', 'Position', '*');
         $this->Acl->allow('support', 'Action', '*');
         $this->Acl->allow('support', 'Applicant', '*');
+        $this->Acl->allow('support', 'Profile', '*');
 
     }
-
 
 }

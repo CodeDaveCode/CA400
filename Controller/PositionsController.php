@@ -9,29 +9,6 @@ class PositionsController extends AppController
         parent::beforeFilter();
     }
 
-    function index()
-    {
-        //$this->set('positions', $this->Position->find('all'));
-        //$this->set('title_for_layout', 'Positions');
-        switch ($this->Session->read('Auth.User.role'))
-        {
-            case "intra":
-                $this->redirect('index_intra');
-                break;
-            case "student":
-                $this->redirect('index_student');
-                break;
-            case "employer":
-                $this->redirect('index_employer');
-                break;
-            case "support":
-                $this->redirect('index_support');
-                break;
-            default:
-                echo "Your user role is not available ".$this->Session->read('Auth.User.role');
-        }
-    }
-
     function index_intra()
     {
         if($this->Session->read('Auth.User.role') != "intra")
@@ -53,7 +30,7 @@ class PositionsController extends AppController
         }
         else
         {
-            $this->set('positions', $this->Position->find('all'));
+            $this->set('positions', $this->Position->find('all', array('conditions'=>array('Position.Active'=>'1'))));
             $this->set('title_for_layout', 'Positions');        }
     }
 
@@ -65,7 +42,7 @@ class PositionsController extends AppController
         }
         else
         {
-            $this->set('positions', $this->Position->find('all'));
+            $this->set('positions', $this->Position->find('all', array('conditions'=>array('Position.Parent'=>$this->Session->read('Auth.User.id')))));
             $this->set('title_for_layout', 'Positions');        }
     }
 
@@ -83,7 +60,7 @@ class PositionsController extends AppController
 
     function view($ID = NULL)
     {
-        //$user = $this->Auth->user();
+        $user = $this->Auth->user();
         //if(!$this->Acl->check($user['role'], 'Position', 'view'))
             //if(!$this->Access->check('User', 'view'))
         //{
@@ -116,21 +93,29 @@ class PositionsController extends AppController
 
     function edit($ID = NULL)
     {
-        $user = $this->Auth->user();
-        if(!$this->Acl->check($user['role'], 'Position', 'update'))
-            //if(!$this->Access->check('User', 'view'))
-        {
-            die('You are not authorized ');
+        if (!$ID) {
+            $this->Session->setFlash('Please provide a reference');
+            $this->redirect(array('action'=>'index'));
         }
-        else {
-            if (empty($this->data)) {
-                $this->data = $this->Position->read(NULL, $ID);
-            } else {
-                if ($this->Position->save($this->data)) {
-                    $this->Session->setFlash('Position updated');
-                    $this->redirect(array('action' => 'view', $ID));
-                }
+
+        $position = $this->Position->findById($ID);
+        if (!$position) {
+            $this->Session->setFlash('Invalid User ID Provided');
+            $this->redirect(array('action'=>'index'));
+        }
+
+        if ($this->request->is('post') || $this->request->is('put')) {
+            $this->Position->ID = $ID;
+            if ($this->Position->save($this->request->data)) {
+                $this->Session->setFlash(__('The user has been updated'));
+                $this->redirect(array('action' => 'edit', $ID));
+            }else{
+                $this->Session->setFlash(__('Unable to update your user.'));
             }
+        }
+
+        if (!$this->request->data) {
+            $this->request->data = $position;
         }
     }
 

@@ -4,12 +4,13 @@
 
 echo $this->Form->create('Position', array('action'=>'add'));
 echo $this->Form->input('Title');
+echo $this->Form->input('Company');
 echo $this->Form->input('Description');
 echo $this->Form->input('Requirements');
 echo $this->Form->input('Closing');
+echo $this->Form->input('Parent',array('default'=>$this->Session->read('Auth.User.id')));
 
 echo $this->Form->end('Create new position');
 echo $this->Html->link('Back', array('action'=>'index'));
-echo $this->element('sql_dump');
 
 ?>

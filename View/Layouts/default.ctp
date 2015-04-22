@@ -21,6 +21,17 @@
 
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+
+
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.6/css/jquery.dataTables.css">
+
+    <!-- jQuery -->
+    <script type="text/javascript" charset="utf8" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+
+    <!-- DataTables -->
+    <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.6/js/jquery.dataTables.js"></script>
     <![endif]-->
 </head>
 
@@ -35,7 +46,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="http://localhost/cakephp/index#">INTRA Portal System</a>
+            <a class="navbar-brand" href="http://localhost/cakephp/index#" >INTRA Portal System</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -56,19 +67,18 @@
     <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
             <ul class="nav nav-sidebar">
-                <li class="active"><a href="#">INTRA <span class="sr-only">(current)</span></a></li>
-                <li><a href="#"><?php echo $this->html->link('Users',array('controller' => 'Users', 'action' => 'index')); ?></a></li>
-                <li><a href="#"><?php echo $this->html->link('Actions',array('controller' => 'Tblactions', 'action' => 'index')); ?></a></li>
+                <li class="active"><a href="#"><?php echo $this->html->link('Dashboard',array('controller' => 'Users', 'action' => 'index')); ?><span class="sr-only">(current)</span></a></li>
+                <li><a href="#"><?php echo $this->html->link('Profile',array('controller' => 'Profiles', 'action' => 'index')); ?></a></li>
                 <li><a href="#"><?php echo $this->html->link('Positions',array('controller' => 'Positions', 'action' => 'index')); ?></a></li>
-                <li><a href="#"><?php echo $this->html->link('Applicants',array('controller' => 'Applicants', 'action' => 'index')); ?></a></li>
+                <li><a href="#"><?php echo $this->html->link('Applications',array('controller' => 'Applicants', 'action' => 'index')); ?></a></li>
             </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-            <h2 class="sub-header">Placeholder</h2>
+            <h2 class="sub-header"></h2>
             <div class="table-responsive">
                 <div id="content">
                     <?php echo $this->Session->flash(); ?>
-<!--                    <img src="http://davidmchugh.ie/DCU_INTRA_Logo.jpg">-->
+<!--                    <img src="http://davidmchugh.ie/mod.png">-->
                     <?php echo $this->fetch('content'); ?>
                 </div>
             </div>

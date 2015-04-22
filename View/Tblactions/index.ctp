@@ -1,9 +1,10 @@
 <h2>Actions</h2>
 
-<table>
+<table class="table">
     <tr>
         <th>Reference</th>
         <th>Description</th>
+
     </tr>
 
     <?php foreach($tblactions as $tblaction) : ?>

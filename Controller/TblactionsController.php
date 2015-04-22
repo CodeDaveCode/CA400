@@ -26,16 +26,17 @@ class TblactionsController extends AppController
 
     function view($ActionRef = NULL)
     {
-        $user = $this->Auth->user();
-        if(!$this->Acl->check($user['role'], 'Action', 'view'))
-            //if(!$this->Access->check('User', 'view'))
-        {
-            die('You are not authorized ');
-        }
-        else {
-            $this->set('tblaction', $this->Tblaction->read(NULL, $ActionRef));
-        }
+        /* $user = $this->Auth->user();
+         if(!$this->Acl->check($user['role'], 'Action', 'view'))
+             //if(!$this->Access->check('User', 'view'))
+         {
+             die('You are not authorized ');
+         }
+         else {*/
+        $this->set('tblaction', $this->Tblaction->read(NULL, $ActionRef));
+        //}
     }
+
 
     function add()
     {
@@ -57,21 +58,29 @@ class TblactionsController extends AppController
 
     function edit($ActionRef = NULL)
     {
-        $user = $this->Auth->user();
-        if(!$this->Acl->check($user['role'], 'Action', 'update'))
-            //if(!$this->Access->check('User', 'view'))
-        {
-            die('You are not authorized ');
+        if (!$ActionRef) {
+            $this->Session->setFlash('Please provide a reference');
+            $this->redirect(array('action'=>'index'));
         }
-        else {
-            if (empty($this->data)) {
-                $this->data = $this->Tblaction->read(NULL, $ActionRef);
-            } else {
-                if ($this->Tblaction->save($this->data)) {
-                    $this->Session->setFlash('Action updated');
-                    $this->redirect(array('action' => 'view', $ActionRef));
-                }
+
+        $tblaction = $this->Tblaction->findByActionref($ActionRef);
+        if (!$tblaction) {
+            $this->Session->setFlash('Invalid User ID Provided');
+            $this->redirect(array('action'=>'index'));
+        }
+
+        if ($this->request->is('post') || $this->request->is('put')) {
+            $this->Tblaction->ActionRef = $ActionRef;
+            if ($this->User->save($this->request->data)) {
+                $this->Session->setFlash(__('The user has been updated'));
+                $this->redirect(array('action' => 'edit', $ActionRef));
+            }else{
+                $this->Session->setFlash(__('Unable to update your user.'));
             }
+        }
+
+        if (!$this->request->data) {
+            $this->request->data = $tblaction;
         }
     }
 

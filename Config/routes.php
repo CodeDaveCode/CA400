@@ -36,9 +36,9 @@
  */
 	CakePlugin::routes();
 
-Router::connect('/index', array('controller' => 'users', 'action' => 'index'));
-Router::connect('/login', array('controller' => 'users', 'action' => 'login'));
-Router::connect('/logout', array('controller' => 'users', 'action' => 'logout'));
+    Router::connect('/index', array('controller' => 'users', 'action' => 'index'));
+    Router::connect('/login', array('controller' => 'users', 'action' => 'login'));
+    Router::connect('/logout', array('controller' => 'users', 'action' => 'logout'));
 
 
 /**

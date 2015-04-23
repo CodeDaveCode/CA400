@@ -101,34 +101,50 @@ class UsersController extends AppController
         }
     }
 
-    public function add()
+    public function add_student()
     {
-        $user = $this->Auth->user();
-        if (!$this->Acl->check($user['role'], 'User', 'create')) {
-            if (!$this->Access->check('User', 'view')) {
-                die('You are not authorized ');
+        if ($this->request->is('post'))
+        {
+            $this->User->create();
+            if ($this->User->save($this->request->data)) {
+                // Set the user role for student
+                $aro = new Aro();
+                $aro->create();
+                $aro->save(array(
+                    'model' => 'User',
+                    'foreign_key' => $this->User->id,
+                    'parent_id' => '2',
+                    'alias' => 'student'
+                ));
+
+                $this->Session->setFlash(__('The user has been created'));
+                $this->redirect(array('action' => 'index'));
             } else {
-                if ($this->request->is('post')) {
-                    $this->User->create();
-                    if ($this->User->save($this->request->data)) {
-                        // Set the user roles
-                        $aro = new Aro();
-                        $parent = $aro->findByAlias($this->User->find('count') > 1 ? 'Student' : 'INTRA');
+                $this->Session->setFlash(__('The user could not be created. Please, try again.'));
+            }
+        }
+    }
 
-                        $aro->create();
-                        $aro->save(array(
-                            'model' => 'User',
-                            'foreign_key' => $this->User->id,
-                            'parent_id' => $parent['Aro']['id'],
-                            'alias' => $this->User->role
-                        ));
+    public function add_employer()
+    {
+        if ($this->request->is('post'))
+        {
+            $this->User->create();
+            if ($this->User->save($this->request->data)) {
+                // Set the user role for employer
+                $aro = new Aro();
+                $aro->create();
+                $aro->save(array(
+                    'model' => 'User',
+                    'foreign_key' => $this->User->id,
+                    'parent_id' => '3',
+                    'alias' => 'student'
+                ));
 
-                        $this->Session->setFlash(__('The user has been created'));
-                        $this->redirect(array('action' => 'index'));
-                    } else {
-                        $this->Session->setFlash(__('The user could not be created. Please, try again.'));
-                    }
-                }
+                $this->Session->setFlash(__('The user has been created'));
+                $this->redirect(array('action' => 'index'));
+            } else {
+                $this->Session->setFlash(__('The user could not be created. Please, try again.'));
             }
         }
     }

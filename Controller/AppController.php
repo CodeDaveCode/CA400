@@ -42,6 +42,8 @@ class AppController extends Controller
             'loginError' => 'Invalid Username or Password entered, please try again.'),
         'Acl');
 
+
+
 // only allow the login controllers only
     public function beforeFilter() {
         $this->Auth->allow('login', 'logout','add');

@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="intra.davidmchugh.ie" persistUploadOnCheckin="false" />
+  <component name="PublishConfigData" serverName="intra.davidmchugh.ie" persistUploadOnCheckin="false">
+    <serverData>
+      <paths name="intra.davidmchugh.ie">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/intra.davidmchugh.ie" local="$PROJECT_DIR$" web="/cake" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
 </project>

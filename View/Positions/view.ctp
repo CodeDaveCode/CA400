@@ -16,7 +16,8 @@
     <div class="panel-footer clearfix">
         <div class="pull-right">
             <a class="btn btn-primary"<?php echo $this->html->link('Apply',array('controller' => 'Applicants', 'action' => 'add',$ID,$TITLE,$pID));?></a>
-            <a class="btn btn-default"<?php echo $this->Html->link( "Return",   array('action'=>'index') );?></a>
+            <a class="btn btn-primary"<?php echo $this->html->link('View Employer',array('controller' => 'Profiles', 'action' => 'view',$pID));?></a>
+            <a class="btn btn-default"<?php echo $this->Html->link('Return',array('action'=>'index') );?></a>
         </div>
     </div>
 </div>

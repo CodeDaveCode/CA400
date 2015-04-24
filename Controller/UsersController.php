@@ -52,12 +52,13 @@ class UsersController extends AppController
     {
         if($this->Session->read('Auth.User.role') != "student")
         {
-            die('You are not authorized ');
+            throw new NotFoundException();
         }
         else
         {
             $this->set('users', $this->User->find('all', array('conditions'=>array('User.id'=>$this->Session->read('Auth.User.id')))));
             $this->set('title_for_layout', 'users');
+            $this->set('pros', $this->User->Profile->find('all', array('conditions'=>array('Profile.user_id'=>$this->Session->read('Auth.User.id')))));
         }
     }
 

@@ -69,8 +69,7 @@ Cache::config('default', array('engine' => 'File'));
  * CakePlugin::load('DebugKit'); //Loads a single plugin named DebugKit
  *
  */
-CakePlugin::load('Search');
-
+CakePlugin::load('Bs3Helpers', array('bootstrap' => true));
 /**
  * To prefer app translation over plugin translation, you can set
  *

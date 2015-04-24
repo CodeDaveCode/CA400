@@ -3,8 +3,9 @@ App::uses('AuthComponent', 'Controller/Component');
 
 class User extends AppModel
 {
+    public $hasOne = 'Profile';
+    //public $hasMany = 'Applicant';
 
-    public $avatarUploadDir = 'img/avatars';
     var $name = 'User';
 
     public $validate = array(

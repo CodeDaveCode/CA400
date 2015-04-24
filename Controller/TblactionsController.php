@@ -71,7 +71,7 @@ class TblactionsController extends AppController
 
         if ($this->request->is('post') || $this->request->is('put')) {
             $this->Tblaction->ActionRef = $ActionRef;
-            if ($this->User->save($this->request->data)) {
+            if ($this->Tblaction->save($this->request->data)) {
                 $this->Session->setFlash(__('The user has been updated'));
                 $this->redirect(array('action' => 'edit', $ActionRef));
             }else{

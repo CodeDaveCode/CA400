@@ -46,7 +46,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="http://localhost/cakephp/index#" >INTRA Portal System</a>
+            <a class="navbar-brand"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -67,7 +67,8 @@
     <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
             <ul class="nav nav-sidebar">
-                <li class="active"><a href="#"><?php echo $this->html->link('Dashboard',array('controller' => 'Users', 'action' => 'index')); ?><span class="sr-only">(current)</span></a></li>
+                <img src="http://intra.davidmchugh.ie/dcu.png">
+                <li><a href="#"><?php echo $this->html->link('Overview',array('controller' => 'Users', 'action' => 'index')); ?><span class="sr-only">(current)</span></a></li>
                 <li><a href="#"><?php echo $this->html->link('Profile',array('controller' => 'Profiles', 'action' => 'index')); ?></a></li>
                 <li><a href="#"><?php echo $this->html->link('Positions',array('controller' => 'Positions', 'action' => 'index')); ?></a></li>
                 <li><a href="#"><?php echo $this->html->link('Applications',array('controller' => 'Applicants', 'action' => 'index')); ?></a></li>

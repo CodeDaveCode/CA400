@@ -42,6 +42,7 @@ class AppController extends Controller
             'loginError' => 'Invalid Username or Password entered, please try again.'),
         'Acl');
 
+    public $helpers = array('Form' => array('className' => 'Bs3Helpers.Bs3Form'));
 
 
 // only allow the login controllers only

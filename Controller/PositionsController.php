@@ -68,7 +68,8 @@ class PositionsController extends AppController
        // }
        // else {
             $this->set('position', $this->Position->read(NULL, $ID));
-       // }
+
+        // }
     }
 
     function add()
@@ -122,16 +123,16 @@ class PositionsController extends AppController
     function delete($ID = NULL)
     {
         $user = $this->Auth->user();
-        if(!$this->Acl->check($user['role'], 'Position', 'delete'))
+        //if(!$this->Acl->check($user['role'], 'Position', 'delete'))
             //if(!$this->Access->check('User', 'view'))
-        {
-            die('You are not authorized ');
-        }
-        else {
+        //{
+            //die('You are not authorized ');
+        //}
+        //else {
             $this->Position->delete($ID);
             $this->Session->setFlash('Position deleted');
             $this->redirect(array('action' => 'index'));
-        }
+        //}
     }
 
     function apply($ID = NULL)

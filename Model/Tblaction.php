@@ -3,7 +3,7 @@ class Tblaction extends AppModel
 {
     var $primaryKey = 'ActionRef';
     var $name = 'Tblaction';
-    //var $actsAs = array ('Searchable');
+
     var $validate = array(
         'ActionRef'=>array(
             'ActionRef_must_not_be_blank'=>array(

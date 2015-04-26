@@ -2,7 +2,6 @@
     <?php echo $this->Form->create('User'); ?>
         <div class="login-container">
             <div id="output"></div>
-            <div class="avatar"><img src="http://davidmchugh.ie/DCU_INTRA_Logo_Small.jpg"></div>
             <div class="form-box">
                 <form action="" method="">
                     <?php echo $this->Form->input('username');?>
@@ -26,13 +25,6 @@
             padding: 5px 40px 40px;
             text-align: center;
             background: #fff;
-        }
-
-
-        .avatar{
-            width: 160px;height: 150px;
-            margin: 10px auto 30px;
-            background-size: cover;
         }
 
     </style>

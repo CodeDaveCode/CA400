@@ -8203,3 +8203,2008 @@ Stack Trace:
 #10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
 #11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #12 {main}
+2015-04-25 00:33:04 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Applicant.user_id' in 'field list'
+Request URL: /cakephp/users/index_student
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1444): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1278): DboSource->_fetchHasMany(Object(User), 'SELECT `Applica...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1137): DboSource->queryAssociation(Object(User), Object(Applicant), 'hasMany', 'Applicant', Array, Array, true, Array, 0, Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(User), Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#8 C:\xampp\htdocs\cakephp\app\Controller\UsersController.php(59): Model->find('all', Array)
+#9 [internal function]: UsersController->index_student()
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#13 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2015-04-25 00:36:39 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.user_id' in 'where clause'
+Request URL: /cakephp/users/index_student
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\UsersController.php(61): Model->find('all', Array)
+#7 [internal function]: UsersController->index_student()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-25 00:37:22 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.applicant_id' in 'on clause'
+Request URL: /cakephp/users/index_student
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\UsersController.php(61): Model->find('all', Array)
+#7 [internal function]: UsersController->index_student()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-25 00:38:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.applicant_id' in 'on clause'
+Request URL: /cakephp/users/index_student
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\UsersController.php(61): Model->find('all', Array)
+#7 [internal function]: UsersController->index_student()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-25 00:39:04 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.applicant_id' in 'on clause'
+Request URL: /cakephp/users/index_student
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\UsersController.php(61): Model->find('all', Array)
+#7 [internal function]: UsersController->index_student()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-25 00:39:34 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.user_id' in 'where clause'
+Request URL: /cakephp/users/index_student
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\UsersController.php(61): Model->find('all', Array)
+#7 [internal function]: UsersController->index_student()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-25 00:40:33 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.applicant_id' in 'on clause'
+Request URL: /cakephp/users/index_student
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\UsersController.php(61): Model->find('all', Array)
+#7 [internal function]: UsersController->index_student()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-25 00:40:34 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.applicant_id' in 'on clause'
+Request URL: /cakephp/users/index_student
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\UsersController.php(61): Model->find('all', Array)
+#7 [internal function]: UsersController->index_student()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-25 00:40:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.applicant_id' in 'on clause'
+Request URL: /cakephp/users/index_student
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\UsersController.php(61): Model->find('all', Array)
+#7 [internal function]: UsersController->index_student()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-25 00:41:36 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.user_id' in 'where clause'
+Request URL: /cakephp/users/index_student
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\UsersController.php(61): Model->find('all', Array)
+#7 [internal function]: UsersController->index_student()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-25 00:42:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.user_id' in 'where clause'
+Request URL: /cakephp/users/index_student
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\UsersController.php(62): Model->find('all', Array)
+#7 [internal function]: UsersController->index_student()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-25 00:42:04 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.user_id' in 'where clause'
+Request URL: /cakephp/users/index_student
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\UsersController.php(62): Model->find('all', Array)
+#7 [internal function]: UsersController->index_student()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-25 00:43:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.user_id' in 'where clause'
+Request URL: /cakephp/users/index_student
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\UsersController.php(62): Model->find('all', Array)
+#7 [internal function]: UsersController->index_student()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-25 00:43:03 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.user_id' in 'where clause'
+Request URL: /cakephp/users/index_student
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\UsersController.php(62): Model->find('all', Array)
+#7 [internal function]: UsersController->index_student()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-25 00:43:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.user_id' in 'where clause'
+Request URL: /cakephp/users/index_student
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\UsersController.php(62): Model->find('all', Array)
+#7 [internal function]: UsersController->index_student()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-25 00:46:34 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.user_id' in 'where clause'
+Request URL: /cakephp/users/index_student
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\UsersController.php(62): Model->find('all', Array)
+#7 [internal function]: UsersController->index_student()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-25 00:50:10 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.user_id' in 'where clause'
+Request URL: /cakephp/users/index_student
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\UsersController.php(62): Model->find('all', Array)
+#7 [internal function]: UsersController->index_student()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-25 00:50:57 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.applicant_id' in 'on clause'
+Request URL: /cakephp/users/index_student
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\UsersController.php(62): Model->find('all', Array)
+#7 [internal function]: UsersController->index_student()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-25 00:51:44 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.applicant_id' in 'on clause'
+Request URL: /cakephp/users/index_student
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\UsersController.php(62): Model->find('all', Array)
+#7 [internal function]: UsersController->index_student()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-25 19:25:19 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Applicant.userID' in 'where clause'
+Request URL: /cakephp/applicants/index_student
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(33): Model->find('all', Array)
+#7 [internal function]: ApplicantsController->index_student()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-25 19:25:20 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Applicant.userID' in 'where clause'
+Request URL: /cakephp/applicants/index_student
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(33): Model->find('all', Array)
+#7 [internal function]: ApplicantsController->index_student()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-25 21:27:47 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1630): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(87): Model->read(NULL, '2')
+#8 [internal function]: ProfilesController->view('2')
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-25 21:27:48 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1630): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(87): Model->read(NULL, '2')
+#8 [internal function]: ProfilesController->view('2')
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-25 21:29:33 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1630): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(87): Model->read(NULL, '2')
+#8 [internal function]: ProfilesController->view('2')
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-25 21:29:34 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1630): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(87): Model->read(NULL, '2')
+#8 [internal function]: ProfilesController->view('2')
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-25 21:31:14 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1630): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(87): Model->read(NULL, '2')
+#8 [internal function]: ProfilesController->view('2')
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-25 21:31:15 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1630): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(87): Model->read(NULL, '2')
+#8 [internal function]: ProfilesController->view('2')
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-25 21:32:55 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1630): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(87): Model->read(NULL, '2')
+#8 [internal function]: ProfilesController->view('2')
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-25 21:32:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1630): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(87): Model->read(NULL, '2')
+#8 [internal function]: ProfilesController->view('2')
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-25 21:33:34 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1630): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(89): Model->read(NULL, '2')
+#8 [internal function]: ProfilesController->view('2')
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-25 21:33:35 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1630): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(89): Model->read(NULL, '2')
+#8 [internal function]: ProfilesController->view('2')
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-25 21:33:37 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1630): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(89): Model->read(NULL, '2')
+#8 [internal function]: ProfilesController->view('2')
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-25 21:33:38 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1630): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(89): Model->read(NULL, '2')
+#8 [internal function]: ProfilesController->view('2')
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-25 21:33:44 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1630): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(87): Model->read(NULL, '2')
+#8 [internal function]: ProfilesController->view('2')
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-25 21:33:45 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1630): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(87): Model->read(NULL, '2')
+#8 [internal function]: ProfilesController->view('2')
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-25 21:34:55 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1630): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(87): Model->read(NULL, '2')
+#8 [internal function]: ProfilesController->view('2')
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-25 21:34:55 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1630): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(87): Model->read(NULL, '2')
+#8 [internal function]: ProfilesController->view('2')
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-25 21:35:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1630): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(87): Model->read(NULL, '2')
+#8 [internal function]: ProfilesController->view('2')
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-25 21:35:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1630): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(87): Model->read(NULL, '2')
+#8 [internal function]: ProfilesController->view('2')
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-25 21:35:57 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1630): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(87): Model->read(NULL, '2')
+#8 [internal function]: ProfilesController->view('2')
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-25 21:35:57 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1630): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(87): Model->read(NULL, '2')
+#8 [internal function]: ProfilesController->view('2')
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#12 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-04-25 21:38:04 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Applicant.userID' in 'where clause'
+Request URL: /cakephp/applicants/index_student
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(33): Model->find('all', Array)
+#7 [internal function]: ApplicantsController->index_student()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-25 21:38:06 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Applicant.userID' in 'where clause'
+Request URL: /cakephp/applicants/index_student
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(33): Model->find('all', Array)
+#7 [internal function]: ApplicantsController->index_student()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-25 21:38:14 Error: Fatal Error (1): Call to a member function read() on null in [C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php, line 87]
+2015-04-25 21:38:14 Error: [FatalErrorException] Call to a member function read() on null
+Request URL: /cakephp/profiles/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 87)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 87, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 87, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-25 21:40:46 Error: [MissingViewException] View file "Profiles\pdf\view_pdf.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Profiles\\pdf\\view_pdf.ctp',
+)
+Request URL: /cakephp/profiles/view_pdf/2.pdf
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-25 21:42:39 Error: [MissingViewException] View file "Profiles\pdf\view_pdf.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Profiles\\pdf\\view_pdf.ctp',
+)
+Request URL: /cakephp/profiles/view_pdf/2.pdf
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-25 21:43:07 Error: [MissingViewException] View file "Profiles\pdf\view_pdf.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Profiles\\pdf\\view_pdf.ctp',
+)
+Request URL: /cakephp/profiles/view_pdf/2.pdf
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-25 21:43:21 Error: [MissingViewException] View file "Profiles\pdf\view_pdf.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Profiles\\pdf\\view_pdf.ctp',
+)
+Request URL: /cakephp/profiles/view_pdf/2.pdf
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-25 21:46:56 Error: [MissingViewException] View file "Profiles\pdf\view_pdf.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Profiles\\pdf\\view_pdf.ctp',
+)
+Request URL: /cakephp/profiles/view_pdf/2.pdf
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-25 21:48:11 Error: [MissingViewException] View file "Profiles\pdf\view_pdf.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Profiles\\pdf\\view_pdf.ctp',
+)
+Request URL: /cakephp/profiles/view_pdf/2.pdf
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-25 21:49:03 Error: [MissingViewException] View file "Profiles\pdf\view_pdf.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Profiles\\pdf\\view_pdf.ctp',
+)
+Request URL: /cakephp/profiles/view_pdf/2.pdf
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-25 21:49:12 Error: [MissingViewException] View file "Profiles\pdf\view_pdf.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Profiles\\pdf\\view_pdf.ctp',
+)
+Request URL: /cakephp/profiles/view_pdf/2.pdf
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-04-25 22:00:50 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-25 22:00:51 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-25 22:20:48 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-25 22:32:39 Error: [DOMPDF_Exception] Requested HTML document contains no data.
+Request URL: /cakephp/profiles/view_pdf/2.pdf
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\Vendor\dompdf\include\dompdf.cls.php(676): Frame_Tree->build_tree()
+#1 C:\xampp\htdocs\cakephp\app\Vendor\dompdf\include\dompdf.cls.php(846): DOMPDF->_process_html()
+#2 C:\xampp\htdocs\cakephp\app\View\Layouts\pdf\default.ctp(8): DOMPDF->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(546): View->_render('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(481): View->renderLayout('', 'default')
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-04-25 23:32:36 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-25 23:32:37 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 11:59:30 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 11:59:30 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 12:03:23 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 12:03:24 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 12:08:21 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php, line 45]
+2015-04-26 12:08:21 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cakephp/applicants/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 45)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 45, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 45, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 12:08:22 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php, line 45]
+2015-04-26 12:08:22 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cakephp/applicants/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 45)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 45, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 45, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 12:08:41 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php, line 45]
+2015-04-26 12:08:41 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cakephp/applicants/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 45)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 45, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 45, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 12:08:41 Error: Fatal Error (1): Call to a member function find() on null in [C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php, line 45]
+2015-04-26 12:08:41 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /cakephp/applicants/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 45)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 45, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 45, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 12:15:00 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Applicant.refid' in 'where clause'
+Request URL: /cakephp/applicants/edit/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(599): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(827): DboSource->query('findByrefid', Array, Object(Applicant))
+#8 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(122): Model->__call('findByrefid', Array)
+#9 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(122): Applicant->findByrefid('2')
+#10 [internal function]: ApplicantsController->edit('2')
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#14 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-04-26 12:15:00 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Applicant.refid' in 'where clause'
+Request URL: /cakephp/applicants/edit/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(599): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(827): DboSource->query('findByrefid', Array, Object(Applicant))
+#8 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(122): Model->__call('findByrefid', Array)
+#9 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(122): Applicant->findByrefid('2')
+#10 [internal function]: ApplicantsController->edit('2')
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#14 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-04-26 12:16:34 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Applicant.refid' in 'where clause'
+Request URL: /cakephp/applicants/edit/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(599): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(827): DboSource->query('findByrefid', Array, Object(Applicant))
+#8 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(122): Model->__call('findByrefid', Array)
+#9 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(122): Applicant->findByrefid('2')
+#10 [internal function]: ApplicantsController->edit('2')
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#14 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-04-26 12:16:35 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Applicant.refid' in 'where clause'
+Request URL: /cakephp/applicants/edit/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(599): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(827): DboSource->query('findByrefid', Array, Object(Applicant))
+#8 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(122): Model->__call('findByrefid', Array)
+#9 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(122): Applicant->findByrefid('2')
+#10 [internal function]: ApplicantsController->edit('2')
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#14 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-04-26 12:18:23 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Applicant.refid' in 'where clause'
+Request URL: /cakephp/applicants/edit/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(599): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(827): DboSource->query('findByrefid', Array, Object(Applicant))
+#8 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(122): Model->__call('findByrefid', Array)
+#9 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(122): Applicant->findByrefid('2')
+#10 [internal function]: ApplicantsController->edit('2')
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#14 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-04-26 12:18:24 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Applicant.refid' in 'where clause'
+Request URL: /cakephp/applicants/edit/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(599): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(827): DboSource->query('findByrefid', Array, Object(Applicant))
+#8 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(122): Model->__call('findByrefid', Array)
+#9 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(122): Applicant->findByrefid('2')
+#10 [internal function]: ApplicantsController->edit('2')
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#14 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-04-26 12:23:57 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Applicant.userID' in 'where clause'
+Request URL: /cakephp/Applicants/add/4/Associate%20UI%20Designer/3
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(88): Model->find('all', Array)
+#7 [internal function]: ApplicantsController->add('4', 'Associate UI De...', '3')
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 12:23:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Applicant.userID' in 'where clause'
+Request URL: /cakephp/Applicants/add/4/Associate%20UI%20Designer/3
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(88): Model->find('all', Array)
+#7 [internal function]: ApplicantsController->add('4', 'Associate UI De...', '3')
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 12:28:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Applicant.userID' in 'where clause'
+Request URL: /cakephp/Applicants/add/4/Associate%20UI%20Designer/3
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(88): Model->find('all', Array)
+#7 [internal function]: ApplicantsController->add('4', 'Associate UI De...', '3')
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 12:28:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Applicant.userID' in 'where clause'
+Request URL: /cakephp/Applicants/add/4/Associate%20UI%20Designer/3
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(88): Model->find('all', Array)
+#7 [internal function]: ApplicantsController->add('4', 'Associate UI De...', '3')
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 12:28:46 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 12:28:46 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 12:34:49 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 12:34:49 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 12:34:54 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 12:34:54 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 12:43:34 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 12:43:36 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 12:44:23 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 12:44:24 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 12:49:28 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.id' in 'where clause'
+Request URL: /cakephp/Profiles/edit/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(599): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(827): DboSource->query('findById', Array, Object(Profile))
+#8 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(115): Model->__call('findById', Array)
+#9 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(115): Profile->findById('2')
+#10 [internal function]: ProfilesController->edit('2')
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#14 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-04-26 12:49:29 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.id' in 'where clause'
+Request URL: /cakephp/Profiles/edit/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(599): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(827): DboSource->query('findById', Array, Object(Profile))
+#8 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(115): Model->__call('findById', Array)
+#9 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(115): Profile->findById('2')
+#10 [internal function]: ProfilesController->edit('2')
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#14 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-04-26 12:50:05 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.id' in 'where clause'
+Request URL: /cakephp/Profiles/edit/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(599): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(827): DboSource->query('findById', Array, Object(Profile))
+#8 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(115): Model->__call('findById', Array)
+#9 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(115): Profile->findById('2')
+#10 [internal function]: ProfilesController->edit('2')
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#14 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-04-26 12:50:05 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.id' in 'where clause'
+Request URL: /cakephp/Profiles/edit/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('first', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(599): Model->find('first', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(827): DboSource->query('findById', Array, Object(Profile))
+#8 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(115): Model->__call('findById', Array)
+#9 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(115): Profile->findById('2')
+#10 [internal function]: ProfilesController->edit('2')
+#11 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#13 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#14 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2015-04-26 12:52:02 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 'PRIMARY'
+Request URL: /cakephp/Profiles/edit/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `te...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `te...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1928): DboSource->create(Object(Profile), Array, Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(123): Model->save(Array)
+#6 [internal function]: ProfilesController->edit('2')
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-04-26 12:52:29 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 'PRIMARY'
+Request URL: /cakephp/Profiles/edit/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `te...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `te...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1928): DboSource->create(Object(Profile), Array, Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(123): Model->save(Array)
+#6 [internal function]: ProfilesController->edit('2')
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-04-26 12:53:28 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 'PRIMARY'
+Request URL: /cakephp/Profiles/edit/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `te...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `te...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1928): DboSource->create(Object(Profile), Array, Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(123): Model->save(Array)
+#6 [internal function]: ProfilesController->edit('2')
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-04-26 12:54:01 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 'PRIMARY'
+Request URL: /cakephp/Profiles/edit/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `te...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `te...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1928): DboSource->create(Object(Profile), Array, Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(123): Model->save(Array)
+#6 [internal function]: ProfilesController->edit('2')
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-04-26 12:56:28 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 'PRIMARY'
+Request URL: /cakephp/Profiles/edit/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `te...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `te...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1928): DboSource->create(Object(Profile), Array, Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(123): Model->save(Array)
+#6 [internal function]: ProfilesController->edit('2')
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-04-26 12:58:01 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '4' for key 'PRIMARY'
+Request URL: /cakephp/positions/edit/4
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `te...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `te...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1928): DboSource->create(Object(Position), Array, Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php(109): Model->save(Array)
+#6 [internal function]: PositionsController->edit('4')
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-04-26 13:47:26 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'count' at line 1
+Request URL: /cakephp/applicants/edit/1/Associate%20UI%20Designer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('count', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('count', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(611): DboSource->fetchAll('count', Array, Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(827): DboSource->query('count', Array, Object(Applicant))
+#5 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(123): Model->__call('count', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(123): Applicant->count('all', Array)
+#7 [internal function]: ApplicantsController->edit('1', 'Associate UI De...')
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 13:52:38 Error: Fatal Error (4): syntax error, unexpected '$applicant' (T_VARIABLE) in [C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php, line 125]
+2015-04-26 13:52:39 Error: [FatalErrorException] syntax error, unexpected '$applicant' (T_VARIABLE)
+Request URL: /cakephp/applicants/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 125)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 125, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 125, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 13:52:40 Error: Fatal Error (4): syntax error, unexpected '$applicant' (T_VARIABLE) in [C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php, line 125]
+2015-04-26 13:52:40 Error: [FatalErrorException] syntax error, unexpected '$applicant' (T_VARIABLE)
+Request URL: /cakephp/applicants/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 125)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 125, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 125, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 13:52:41 Error: Fatal Error (4): syntax error, unexpected '$applicant' (T_VARIABLE) in [C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php, line 125]
+2015-04-26 13:52:41 Error: [FatalErrorException] syntax error, unexpected '$applicant' (T_VARIABLE)
+Request URL: /cakephp/applicants/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 125)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 125, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 125, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 13:52:47 Error: Fatal Error (4): syntax error, unexpected '$applicant' (T_VARIABLE) in [C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php, line 125]
+2015-04-26 13:52:47 Error: [FatalErrorException] syntax error, unexpected '$applicant' (T_VARIABLE)
+Request URL: /cakephp/Applicants
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 125)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 125, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 125, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 13:52:47 Error: Fatal Error (4): syntax error, unexpected '$applicant' (T_VARIABLE) in [C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php, line 125]
+2015-04-26 13:52:47 Error: [FatalErrorException] syntax error, unexpected '$applicant' (T_VARIABLE)
+Request URL: /cakephp/Applicants
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 125)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 125, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 125, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 13:53:16 Error: Fatal Error (4): syntax error, unexpected '$applicant' (T_VARIABLE) in [C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php, line 125]
+2015-04-26 13:53:16 Error: [FatalErrorException] syntax error, unexpected '$applicant' (T_VARIABLE)
+Request URL: /cakephp/Applicants
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 125)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 125, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 125, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 13:53:17 Error: Fatal Error (4): syntax error, unexpected '$applicant' (T_VARIABLE) in [C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php, line 125]
+2015-04-26 13:53:17 Error: [FatalErrorException] syntax error, unexpected '$applicant' (T_VARIABLE)
+Request URL: /cakephp/Applicants
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 125)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 125, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 125, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 13:53:21 Error: Fatal Error (4): syntax error, unexpected '$applicant' (T_VARIABLE) in [C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php, line 125]
+2015-04-26 13:53:21 Error: [FatalErrorException] syntax error, unexpected '$applicant' (T_VARIABLE)
+Request URL: /cakephp/Applicants
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 125)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 125, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 125, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 13:53:22 Error: Fatal Error (4): syntax error, unexpected '$applicant' (T_VARIABLE) in [C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php, line 125]
+2015-04-26 13:53:22 Error: [FatalErrorException] syntax error, unexpected '$applicant' (T_VARIABLE)
+Request URL: /cakephp/Applicants
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 125)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 125, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 125, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 14:19:36 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Applicant.userID' in 'where clause'
+Request URL: /cakephp/applicants/index_student
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(33): Model->find('all', Array)
+#7 [internal function]: ApplicantsController->index_student()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 14:19:37 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Applicant.userID' in 'where clause'
+Request URL: /cakephp/applicants/index_student
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(33): Model->find('all', Array)
+#7 [internal function]: ApplicantsController->index_student()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 14:24:49 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Applicant.userID' in 'where clause'
+Request URL: /cakephp/applicants/index_student
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(33): Model->find('all', Array)
+#7 [internal function]: ApplicantsController->index_student()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 14:24:49 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Applicant.userID' in 'where clause'
+Request URL: /cakephp/applicants/index_student
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(33): Model->find('all', Array)
+#7 [internal function]: ApplicantsController->index_student()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 14:47:42 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 14:47:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 14:48:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 14:48:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 14:48:12 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 14:48:12 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 14:50:06 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 14:50:07 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 14:50:33 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 14:50:33 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 14:55:57 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 14:55:57 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 14:56:52 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 14:56:52 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Profile.ID' in 'where clause'
+Request URL: /cakephp/profiles/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Profile...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Profile...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Profile...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Profile), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(57): Model->find('all', Array)
+#7 [internal function]: ProfilesController->index_employer()
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 15:02:57 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Applicant.user_' in 'where clause'
+Request URL: /cakephp/Applicants/add/7/Junior%20/3
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(88): Model->find('all', Array)
+#7 [internal function]: ApplicantsController->add('7', 'Junior ', '3')
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 15:02:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Applicant.user_' in 'where clause'
+Request URL: /cakephp/Applicants/add/7/Junior%20/3
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('SELECT `Applica...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(668): DboSource->execute('SELECT `Applica...', Array, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Applica...', false)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(3022): DboSource->read(Object(Applicant), Array)
+#5 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(2994): Model->_readDataSource('all', Array)
+#6 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(88): Model->find('all', Array)
+#7 [internal function]: ApplicantsController->add('7', 'Junior ', '3')
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#11 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-04-26 15:45:47 Error: Fatal Error (1): Call to a member function read() on null in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 70]
+2015-04-26 15:45:47 Error: [FatalErrorException] Call to a member function read() on null
+Request URL: /cakephp/Positions/view/4
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 70)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 70, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 70, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 15:45:48 Error: Fatal Error (1): Call to a member function read() on null in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 70]
+2015-04-26 15:45:48 Error: [FatalErrorException] Call to a member function read() on null
+Request URL: /cakephp/Positions/view/4
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 70)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 70, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 70, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 15:46:38 Error: Fatal Error (1): Call to a member function read() on null in [C:\xampp\htdocs\cakephp\app\Controller\PositionsController.php, line 70]
+2015-04-26 15:46:38 Error: [FatalErrorException] Call to a member function read() on null
+Request URL: /cakephp/Positions/view/4
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 70)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 70, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 70, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-04-26 16:13:14 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10' for key 'PRIMARY'
+Request URL: /cakephp/applicants/edit/2/Work%20Job%20Work%20
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `te...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `te...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1928): DboSource->create(Object(Applicant), Array, Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(130): Model->save(Array)
+#6 [internal function]: ApplicantsController->edit('2', 'Work Job Work ')
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-04-26 16:14:16 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10' for key 'PRIMARY'
+Request URL: /cakephp/applicants/edit/2/Work%20Job%20Work%20
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `te...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `te...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1928): DboSource->create(Object(Applicant), Array, Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\cakephp\app\Controller\ApplicantsController.php(130): Model->save(Array)
+#6 [internal function]: ApplicantsController->edit('2', 'Work Job Work ')
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}

@@ -3,10 +3,16 @@ App::uses('AuthComponent', 'Controller/Component');
 
 class User extends AppModel
 {
-    public $hasOne = 'Profile';
-    //public $hasMany = 'Applicant';
+    public $name = 'User';
+    public $primaryKey = 'id';
 
-    var $name = 'User';
+    public $hasOne = 'Profile';
+    public $hasMany = array(
+        'Applicant' => array(
+            'className' => 'Applicant',
+            'foreignKey' => 'user_id'
+        )
+    );
 
     public $validate = array(
         'username' => array(
@@ -36,7 +42,7 @@ class User extends AppModel
             ),
             'min_length' => array(
                 'rule' => array('minLength', '6'),
-                'message' => 'Password must have a mimimum of 6 characters'
+                'message' => 'Password must have a minimum of 6 characters'
             )
         ),
 
@@ -76,7 +82,7 @@ class User extends AppModel
         'password_update' => array(
             'min_length' => array(
                 'rule' => array('minLength', '6'),
-                'message' => 'Password must have a mimimum of 6 characters',
+                'message' => 'Password must have a minimum of 6 characters',
                 'allowEmpty' => true,
                 'required' => false
             )
@@ -90,8 +96,7 @@ class User extends AppModel
         )
     );
 
-    function isUniqueUsername($check)
-    {
+    function isUniqueUsername($check) {
         $username = $this->find(
             'first',
             array(
@@ -105,25 +110,20 @@ class User extends AppModel
             )
         );
 
-        if(!empty($username))
-        {
-            if($this->data[$this->alias]['id'] == $username['User']['id'])
-            {
+        if(!empty($username)) {
+            if($this->data[$this->alias]['id'] == $username['User']['id']) {
                 return true;
             }
-            else
-            {
+            else {
                 return false;
             }
         }
-        else
-        {
+        else {
             return true;
         }
     }
 
-    function isUniqueEmail($check)
-    {
+    function isUniqueEmail($check) {
         $email = $this->find(
             'first',
             array(
@@ -136,25 +136,20 @@ class User extends AppModel
             )
         );
 
-        if(!empty($email))
-        {
-            if($this->data[$this->alias]['id'] == $email['User']['id'])
-            {
+        if(!empty($email)) {
+            if($this->data[$this->alias]['id'] == $email['User']['id']) {
                 return true;
             }
-            else
-            {
+            else {
                 return false;
             }
         }
-        else
-        {
+        else {
             return true;
         }
     }
 
-    public function alphaNumericDashUnderscore($check)
-    {
+    public function alphaNumericDashUnderscore($check) {
         // $data array is passed using the form field name as the key
         // have to extract the value to make the function generic
         $value = array_values($check);
@@ -163,8 +158,7 @@ class User extends AppModel
         return preg_match('/^[a-zA-Z0-9_ \-]*$/', $value);
     }
 
-    public function equaltofield($check,$otherfield)
-    {
+    public function equaltofield($check,$otherfield) {
         //get name of field
         $fname = '';
         foreach ($check as $key => $value){
@@ -174,11 +168,9 @@ class User extends AppModel
         return $this->data[$this->name][$otherfield] === $this->data[$this->name][$fname];
     }
 
-    public function beforeSave($options = array())
-    {
+    public function beforeSave($options = array()) {
         // hash our password
-        if (isset($this->data[$this->alias]['password']))
-        {
+        if (isset($this->data[$this->alias]['password'])) {
             $this->data[$this->alias]['password'] = AuthComponent::password($this->data[$this->alias]['password']);
         }
 
@@ -190,5 +182,4 @@ class User extends AppModel
         // fallback to our parent
         return parent::beforeSave($options);
     }
-
 }

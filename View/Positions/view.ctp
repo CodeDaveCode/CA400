@@ -1,16 +1,16 @@
-<?php $ID = $position['Position']['ID'] ?>
-<?php $TITLE = $position['Position']['Title'] ?>
-<?php $pID = $position['Position']['Parent'] ?>
+<?php $ID = $position['Position']['id'] ?>
+<?php $TITLE = $position['Position']['title'] ?>
+<?php $pID = $position['Position']['parent'] ?>
 
 
 <div class="panel panel-primary">
     <div class="panel-heading">
-        <h1 class="panel-title"><?php echo $position['Position']['Title'] ?> - <?php echo $position['Position']['Company'] ?></h1>
+        <h1 class="panel-title"><?php echo $position['Position']['title'] ?> - <?php echo $position['Position']['company'] ?></h1>
     </div>
 
-    <div class="panel-body">Description: <?php echo $position['Position']['Description'] ?></div>
-    <div class="panel-body">Requirements: <?php echo $position['Position']['Requirements'] ?></div>
-    <div class="panel-body">Closing:  <?php echo $position['Position']['Closing'] ?></div>
+    <div class="panel-body">Description: <?php echo $position['Position']['description'] ?></div>
+    <div class="panel-body">Requirements: <?php echo $position['Position']['requirements'] ?></div>
+    <div class="panel-body">Closing:  <?php echo $position['Position']['closing'] ?></div>
 
 
     <div class="panel-footer clearfix">

@@ -4,7 +4,7 @@ class UsersController extends AppController
 
     public function beforeFilter() {
         parent::beforeFilter();
-        $this->Auth->allow('login','add');
+        $this->Auth->allow('login','add_student');
     }
 
     public function login() {
@@ -30,7 +30,7 @@ class UsersController extends AppController
             throw new NotFoundException();
         }
         else {
-            $this->set('users', $this->User->find('all'));
+            $this->set('users', $this->User->Profile->find('all'));
             $this->set('title_for_layout', 'users');
         }
     }

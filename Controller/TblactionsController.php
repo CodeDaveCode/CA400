@@ -9,19 +9,15 @@ class TblactionsController extends AppController
         parent::beforeFilter();
     }
 
-    function index()
+    function index($ref = NULL)
     {
         $user = $this->Auth->user();
-        if($user['role'] == 'intra')
-        {
-            $this->set('tblactions', $this->Tblaction->find('all'));
+        if($user['role'] == 'intra') {
+            $this->set('tblactions', $this->Tblaction->find('all', array('conditions' => array('Tblaction.user_id' => $ref))));
+
             $this->set('title_for_layout', 'Osmium');
         }
-        else
-        {
-            $this->set('tblactions', $this->Tblaction->find('all'));
-            $this->set('title_for_layout', 'Osmium');
-        }
+
     }
 
     function view($ActionRef = NULL)
@@ -38,8 +34,9 @@ class TblactionsController extends AppController
     }
 
 
-    function add()
+    function add($ref = NULL)
     {
+        $this->set('userRef', $ref);
         $user = $this->Auth->user();
         if(!$this->Acl->check($user['role'], 'Action', 'create'))
             //if(!$this->Access->check('User', 'view'))
@@ -49,7 +46,6 @@ class TblactionsController extends AppController
         if (!empty($this->data)) {
             if ($this->Tblaction->save($this->data)) {
                 $this->Session->setFlash('Action sucessfuly added');
-                $this->redirect(array('action' => 'index'));
             } else {
                 $this->Session->setFlash('Action unsucessfuly added');
             }

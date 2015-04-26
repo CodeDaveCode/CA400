@@ -3,9 +3,10 @@
 <table id="table_id" class="display">
     <thead>
     <tr>
-        <th>Reference</th>
-        <th>Ref</th>
-        <th>Description</th>
+        <th>ID</th>
+        <th>Owner</th>
+        <th>User</th>
+        <th>Date</th>
         <th></th>
         <th></th>
     </tr>
@@ -13,17 +14,18 @@
     <tbody>
         <?php foreach($tblactions as $tblaction) : ?>
             <tr>
-                <td><?php echo $this->Html->link($tblaction['Tblaction']['ActionRef'], array('action'=>'view', $tblaction ['Tblaction']['ActionRef'] ));?></td>
-                <td><?php echo $tblaction['Tblaction']['OrgRef'] ?></td>
-                <td><?php echo $tblaction['Tblaction']['Description'] ?></td>
-                <td><?php echo $this->Html->link('Edit', array('action'=>'edit',$tblaction['Tblaction']['ActionRef'])); ?></td>
-                <td><?php echo $this->Html->link('Delete', array('action'=>'delete',$tblaction['Tblaction']['ActionRef']), NULL, 'Are you sure you want to delete this action?'); ?></td>
+                <td><?php echo $this->Html->link($tblaction['Tblaction']['ref_id'], array('action'=>'view', $tblaction ['Tblaction']['ref_id'] ));?></td>
+                <td><?php echo $tblaction['Tblaction']['owner_id'] ?></td>
+                <td><?php echo $tblaction['Tblaction']['user_id'] ?></td>
+                <td><?php echo $tblaction['Tblaction']['date'] ?></td>
+                <td><?php echo $this->Html->link('Edit', array('action'=>'edit',$tblaction['Tblaction']['ref_id'])); ?></td>
+                <td><?php echo $this->Html->link('Delete', array('action'=>'delete',$tblaction['Tblaction']['ref_id']), NULL, 'Are you sure you want to delete this action?'); ?></td>
             </tr>
         <?php endforeach; ?>
     </tbody>
 </table>
 <br>
-<p><?php echo $this->html->link('Add action',array('action'=>'add')); ?></p>
+<p><?php echo $this->html->link('Add action',array('action'=>'add' , $tblaction['Tblaction']['user_id'] )); ?></p>
 <br>
 
 <script>

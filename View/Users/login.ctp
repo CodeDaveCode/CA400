@@ -8,6 +8,7 @@
                     <?php echo $this->Form->input('password');?>
                     <?php echo $this->Form->end(__('Login')); ?>
                 </form>
+                <p><?php echo $this->html->link('Register',array('action'=>'add_student')); ?></p>
             </div>
         </div>
 

@@ -135,16 +135,13 @@ class PositionsController extends AppController
         //}
     }
 
-    function apply($ID = NULL)
-    {
-        $data = new applicant();
-
-        $data->create();
-
-        $data->save(array(
-            'position_id' => $this->Position->id,
-            'user_id' => $this->User->id));
-
-        $this->Session->setFlash('Position applied for');
+    public function latest() {
+        if (empty($this->request->params['requested'])) {
+            throw new ForbiddenException();
+        }
+        return $this->Position->find(
+            'all',
+            array('order' => 'Position.created DESC', 'limit' => 5)
+        );
     }
 }

@@ -59,7 +59,7 @@ class TblactionsController extends AppController
             $this->redirect(array('action'=>'index'));
         }
 
-        $tblaction = $this->Tblaction->findByActionref($ActionRef);
+        $tblaction = $this->Tblaction->findByref_id($ActionRef);
         if (!$tblaction) {
             $this->Session->setFlash('Invalid User ID Provided');
             $this->redirect(array('action'=>'index'));

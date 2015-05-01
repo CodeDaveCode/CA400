@@ -24,7 +24,7 @@ class User extends AppModel
             'between' => array(
                 'rule' => array('between', 5, 15),
                 'required' => true,
-                'message' => 'Usernames must be between 5 to 15 characters'
+                'message' => 'Username must be between 5 to 15 characters'
             ),
             'unique' => array(
                 'rule'    => array('isUniqueUsername'),
@@ -68,7 +68,7 @@ class User extends AppModel
             ),
             'between' => array(
                 'rule' => array('between', 6, 60),
-                'message' => 'Usernames must be between 6 to 60 characters'
+                'message' => 'email must be between 6 to 60 characters'
             )
         ),
         'role' => array(
@@ -96,6 +96,7 @@ class User extends AppModel
         )
     );
 
+    //Verify unique username
     function isUniqueUsername($check) {
         $username = $this->find(
             'first',
@@ -123,6 +124,7 @@ class User extends AppModel
         }
     }
 
+    //Verify unique email
     function isUniqueEmail($check) {
         $email = $this->find(
             'first',
@@ -173,11 +175,6 @@ class User extends AppModel
         if (isset($this->data[$this->alias]['password'])) {
             $this->data[$this->alias]['password'] = AuthComponent::password($this->data[$this->alias]['password']);
         }
-
-        // if we get a new password, hash it
-        /*if (isset($this->data[$this->alias]['password_update']) &amp;&amp; !empty($this->data[$this->alias]['password_update'])) {
-            $this->data[$this->alias]['password'] = AuthComponent::password($this->data[$this->alias]['password_update']);
-        }*/
 
         // fallback to our parent
         return parent::beforeSave($options);

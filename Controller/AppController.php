@@ -45,9 +45,9 @@ class AppController extends Controller
     public $helpers = array('Form' => array('className' => 'Bs3Helpers.Bs3Form'));
 
 
-// only allow the login controllers only
+    // Only allow the login, logout and register
     public function beforeFilter() {
-        $this->Auth->allow('login', 'logout','add');
+        $this->Auth->allow('login', 'logout','add_student');
     }
 
    // public function isAuthorized($user) {

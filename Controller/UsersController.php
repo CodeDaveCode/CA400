@@ -2,11 +2,13 @@
 class UsersController extends AppController
 {
 
+    //Check User login
     public function beforeFilter() {
         parent::beforeFilter();
         $this->Auth->allow('login','add_student');
     }
 
+    //Login function
     public function login() {
         if($this->Session->check('Auth.User')) {
             $this->redirect(array('action' => 'index'));
@@ -16,15 +18,17 @@ class UsersController extends AppController
                 $this->redirect($this->Auth->redirectUrl());
             }
             else {
-                $this->Session->setFlash(__('Invalid username or password'));
+                $this->Session->setFlash('Invalid username or password');
             }
         }
     }
 
+    //Logout function
     public function logout() {
         $this->redirect($this->Auth->logout());
     }
 
+    //INTRA overview redirect
     function index_intra() {
         if($this->Session->read('Auth.User.role') != "intra") {
             throw new NotFoundException();
@@ -35,19 +39,18 @@ class UsersController extends AppController
         }
     }
 
+    //Student overview redirect
     function index_student() {
         if($this->Session->read('Auth.User.role') != "student") {
             throw new NotFoundException();
         }
         else {
-            //$this->set('users', $this->User->find('all', array('conditions'=>array('User.id'=>$this->Session->read('Auth.User.id')))));
-            //$this->set('title_for_layout', 'users');
-            //$this->set('pros', $this->User->Profile->find('all', array('conditions'=>array('Profile.user_id'=>$this->Session->read('Auth.User.id')))));
             $this->set('int', $this->User->Applicant->find('all', array('conditions'=>array(
-                                                                array('Applicant.user_id'=>$this->Session->read('Auth.User.id')),array('Applicant.stage'=>'interview')))));
+                array('Applicant.user_id'=>$this->Session->read('Auth.User.id')),array('Applicant.stage'=>'interview')))));
         }
     }
 
+    //Employer overview redirect
     function index_employer() {
         if($this->Session->read('Auth.User.role') != "employer") {
             throw new NotFoundException();
@@ -58,6 +61,7 @@ class UsersController extends AppController
         }
     }
 
+    //Support overview redirect
     function index_support() {
         if($this->Session->read('Auth.User.role') != "support") {
             throw new NotFoundException();
@@ -68,6 +72,7 @@ class UsersController extends AppController
         }
     }
 
+    //View function
     function view($ID = NULL) {
         $user = $this->Auth->user();
         if(!$this->Acl->check($user['role'], 'User', 'read')) {
@@ -78,6 +83,7 @@ class UsersController extends AppController
         }
     }
 
+    //Create student user
     public function add_student()
     {
         if ($this->request->is('post')) {
@@ -93,7 +99,7 @@ class UsersController extends AppController
                     'alias' => 'student'
                 ));
 
-                $this->Session->setFlash(__('The user has been created'));
+                $this->Session->setFlash('The user has been created');
                 $this->redirect(array('action' => 'index'));
             }
             else {
@@ -102,6 +108,7 @@ class UsersController extends AppController
         }
     }
 
+    //Create employer user
     public function add_employer() {
         if ($this->request->is('post')) {
             $this->User->create();
@@ -116,15 +123,16 @@ class UsersController extends AppController
                     'alias' => 'student'
                 ));
 
-                $this->Session->setFlash(__('The user has been created'));
+                $this->Session->setFlash('The user has been created');
                 $this->redirect(array('action' => 'index'));
             }
             else {
-                $this->Session->setFlash(__('The user could not be created. Please, try again.'));
+                $this->Session->setFlash('The user could not be created. Please, try again.');
             }
         }
     }
 
+    //Edit  function
     public function edit($id = null) {
         $user = $this->Auth->user();
         if(!$this->Acl->check($user['role'], 'User', 'edit')) {
@@ -143,11 +151,11 @@ class UsersController extends AppController
             if ($this->request->is('post') || $this->request->is('put')) {
                 $this->User->id = $id;
                 if ($this->User->save($this->request->data)) {
-                    $this->Session->setFlash(__('The user has been updated'));
+                    $this->Session->setFlash('The user has been updated');
                     $this->redirect(array('action' => 'edit', $id));
                 }
                 else {
-                    $this->Session->setFlash(__('Unable to update your user.'));
+                    $this->Session->setFlash('Unable to update your user.');
                 }
             }
             if (!$this->request->data) {
@@ -156,6 +164,7 @@ class UsersController extends AppController
         }
     }
 
+    //Delete function
     public function delete($id = null) {
         $user = $this->Auth->user();
         if(!$this->Acl->check($user['role'], 'User', 'delete')) {
@@ -172,14 +181,15 @@ class UsersController extends AppController
                 $this->redirect(array('action' => 'index'));
             }
             if ($this->User->saveField('status', 0)) {
-                $this->Session->setFlash(__('User deleted'));
+                $this->Session->setFlash('User deleted');
                 $this->redirect(array('action' => 'index'));
             }
-            $this->Session->setFlash(__('User was not deleted'));
+            $this->Session->setFlash('User was not deleted');
             $this->redirect(array('action' => 'index'));
         }
     }
 
+    //Set user activation to 1
     public function activate($id = null) {
         $user = $this->Auth->user();
         if(!$this->Acl->check($user['role'], 'User', 'create')) {
@@ -196,10 +206,10 @@ class UsersController extends AppController
                 $this->redirect(array('action' => 'index'));
             }
             if ($this->User->saveField('status', 1)) {
-                $this->Session->setFlash(__('User re-activated'));
+                $this->Session->setFlash('User re-activated');
                 $this->redirect(array('action' => 'index'));
             }
-            $this->Session->setFlash(__('User was not re-activated'));
+            $this->Session->setFlash('User was not re-activated');
             $this->redirect(array('action' => 'index'));
         }
     }

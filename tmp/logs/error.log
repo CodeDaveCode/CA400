@@ -12388,3 +12388,102 @@ Stack Trace:
 #3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
 #4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2015-05-27 10:19:13 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Positions/view/24
+Stack Trace:
+#0 [internal function]: AppController->view('24')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-27 12:13:38 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Positions/view/20
+Stack Trace:
+#0 [internal function]: AppController->view('20')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-27 12:13:42 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Positions/view/24
+Stack Trace:
+#0 [internal function]: AppController->view('24')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-27 18:50:30 Error: [NotFoundException] Not Found
+Request URL: /cakephp/profiles/view/2
+Stack Trace:
+#0 [internal function]: AppController->view('2')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-27 18:50:38 Error: [NotFoundException] Not Found
+Request URL: /cakephp/profiles/view/2/Profile
+Stack Trace:
+#0 [internal function]: AppController->view('2', 'Profile')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-27 18:50:39 Error: [NotFoundException] Not Found
+Request URL: /cakephp/profiles/view/2/Profile
+Stack Trace:
+#0 [internal function]: AppController->view('2', 'Profile')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-27 18:50:51 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Profiles/view/10
+Stack Trace:
+#0 [internal function]: AppController->view('10')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-27 18:58:51 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/delete/14
+Stack Trace:
+#0 [internal function]: AppController->delete('14')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-27 19:33:01 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/delete/74
+Stack Trace:
+#0 [internal function]: AppController->delete('74')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-27 19:35:26 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/delete/74/Position
+Stack Trace:
+#0 [internal function]: AppController->delete('74', 'Position')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-27 19:35:26 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/delete/74/Position
+Stack Trace:
+#0 [internal function]: AppController->delete('74', 'Position')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

@@ -36,6 +36,7 @@ class UsersController extends AppController
         else {
             $this->set('users', $this->User->Profile->find('all'));
             $this->set('title_for_layout', 'users');
+            $this->response->body(json_encode($data));
         }
     }
 
@@ -183,7 +184,7 @@ class UsersController extends AppController
         $this->Acl->allow('student', 'Profile', array('create','read','update'));
 
         $this->Acl->allow('employer', 'User', array('read','update'));
-        $this->Acl->allow('employer', 'Position', array('create','read','update'));
+        $this->Acl->allow('employer', 'Position', '*');
         $this->Acl->allow('student', 'User', array('create','read'));
         $this->Acl->allow('student', 'Applicant', array('create','read','update'));
         $this->Acl->allow('student', 'Profile', array('create','read','update'));

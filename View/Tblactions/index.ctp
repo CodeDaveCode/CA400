@@ -14,7 +14,7 @@
     <tbody>
         <?php foreach($tblactions as $tblaction) : ?>
             <tr>
-                <td><?php echo $this->Html->link($tblaction['Tblaction']['ref_id'], array('action'=>'view', $tblaction ['Tblaction']['ref_id'] ));?></td>
+                <td><?php echo $this->Html->link($tblaction['Tblaction']['ref_id'], array('action'=>'view', $tblaction ['Tblaction']['ref_id'], 'Tblaction' ));?></td>
                 <td><?php echo $tblaction['Tblaction']['owner_id'] ?></td>
                 <td><?php echo $tblaction['Tblaction']['user_id'] ?></td>
                 <td><?php echo $tblaction['Tblaction']['date'] ?></td>
@@ -25,7 +25,7 @@
     </tbody>
 </table>
 <br>
-<a class="btn btn-primary"<?php echo $this->html->link('Add action',array('action'=>'add' , $tblaction['Tblaction']['user_id'] )); ?></a>
+<a class="btn btn-primary"<?php echo $this->html->link('Add note',array('action'=>'add' , $tblaction['Tblaction']['user_id'] )); ?></a>
 <br>
 
 <script>

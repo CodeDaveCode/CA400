@@ -44,21 +44,13 @@ class AppController extends Controller
 
     public $helpers = array('Form' => array('className' => 'Bs3Helpers.Bs3Form'));
 
-
     // Only allow the login, logout and register
     public function beforeFilter() {
         $this->Auth->allow('login', 'logout','add_student');
     }
 
-   // public function isAuthorized($user) {
-    //    return true;
-   // }
-    function index()
-    {
-        //$this->set('positions', $this->Position->find('all'));
-        //$this->set('title_for_layout', 'Positions');
-        switch ($this->Session->read('Auth.User.role'))
-        {
+    function index(){
+        switch ($this->Session->read('Auth.User.role')) {
             case "intra":
                 $this->redirect('index_intra');
                 break;
@@ -76,6 +68,29 @@ class AppController extends Controller
         }
     }
 
+    function view($ID = NULL, $CON){
+        $user = $this->Auth->user();
+        if(!$this->Acl->check($user['role'], $CON, 'read')){
+           throw new NotFoundException();
+        }
+        else {
+            $this->set('view', $this->$CON->read(NULL, $ID));
+        }
+    }
+
+    function delete($ID = NULL, $CON)
+    {
+        $user = $this->Auth->user();
+        if(!$this->Acl->check($user['role'], $CON, 'delete'))
+        {
+            throw new NotFoundException();
+        }
+        else {
+            $this->$CON->delete($ID);
+            $this->Session->setFlash($CON. ' deleted');
+            $this->redirect(array('action' => 'index'));
+        }
+    }
 
     function install()
     {

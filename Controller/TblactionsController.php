@@ -20,20 +20,6 @@ class TblactionsController extends AppController
 
     }
 
-    function view($ActionRef = NULL)
-    {
-        /* $user = $this->Auth->user();
-         if(!$this->Acl->check($user['role'], 'Action', 'view'))
-             //if(!$this->Access->check('User', 'view'))
-         {
-             die('You are not authorized ');
-         }
-         else {*/
-        $this->set('tblaction', $this->Tblaction->read(NULL, $ActionRef));
-        //}
-    }
-
-
     function add($ref = NULL)
     {
         $this->set('userRef', $ref);
@@ -54,44 +40,36 @@ class TblactionsController extends AppController
 
     function edit($ActionRef = NULL)
     {
-        if (!$ActionRef) {
-            $this->Session->setFlash('Please provide a reference');
-            $this->redirect(array('action'=>'index'));
-        }
-
-        $tblaction = $this->Tblaction->findByref_id($ActionRef);
-        if (!$tblaction) {
-            $this->Session->setFlash('Invalid User ID Provided');
-            $this->redirect(array('action'=>'index'));
-        }
-
-        if ($this->request->is('post') || $this->request->is('put')) {
-            $this->Tblaction->ActionRef = $ActionRef;
-            if ($this->Tblaction->save($this->request->data)) {
-                $this->Session->setFlash(__('The user has been updated'));
-                $this->redirect(array('action' => 'edit', $ActionRef));
-            }else{
-                $this->Session->setFlash(__('Unable to update your user.'));
-            }
-        }
-
-        if (!$this->request->data) {
-            $this->request->data = $tblaction;
-        }
-    }
-
-    function delete($ActionRef = NULL)
-    {
         $user = $this->Auth->user();
-        if(!$this->Acl->check($user['role'], 'Action', 'delete'))
-            //if(!$this->Access->check('User', 'view'))
-        {
-            die('You are not authorized ');
+        if(!$this->Acl->check($user['role'], 'User', 'update')) {
+            throw new NotFoundException();
         }
         else {
-            $this->Tblaction->delete($ActionRef);
-            $this->Session->setFlash('Action deleted');
-            $this->redirect(array('action' => 'index'));
+            if (!$ActionRef) {
+                $this->Session->setFlash('Please provide a reference');
+                $this->redirect(array('action' => 'index'));
+            }
+
+            $tblaction = $this->Tblaction->findByref_id($ActionRef);
+            if (!$tblaction) {
+                $this->Session->setFlash('Invalid User ID Provided');
+                $this->redirect(array('action' => 'index'));
+            }
+
+            if ($this->request->is('post') || $this->request->is('put')) {
+                $this->Tblaction->ActionRef = $ActionRef;
+                if ($this->Tblaction->save($this->request->data)) {
+                    $this->Session->setFlash(__('The user has been updated'));
+                    $this->redirect(array('action' => 'edit', $ActionRef));
+                } else {
+                    $this->Session->setFlash(__('Unable to update your user.'));
+                }
+            }
+
+            if (!$this->request->data) {
+                $this->request->data = $tblaction;
+            }
         }
     }
+
 }

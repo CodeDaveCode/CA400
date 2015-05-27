@@ -10847,3 +10847,1544 @@ Stack Trace:
 #3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
 #4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2015-05-24 14:01:45 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12/Position
+Stack Trace:
+#0 [internal function]: AppController->view('12', 'Position')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:01:45 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12/Position
+Stack Trace:
+#0 [internal function]: AppController->view('12', 'Position')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:01:52 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12
+Stack Trace:
+#0 [internal function]: AppController->view('12')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:02:55 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12/Position
+Stack Trace:
+#0 [internal function]: AppController->view('12', 'Position')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:04:05 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12/Position
+Stack Trace:
+#0 [internal function]: AppController->view('12', 'Position')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:07:40 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12/Position
+Stack Trace:
+#0 [internal function]: AppController->view('12', 'Position')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:07:51 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12/Position
+Stack Trace:
+#0 [internal function]: AppController->view('12', 'Position')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:08:35 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12/Position
+Stack Trace:
+#0 [internal function]: AppController->view('12', 'Position')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:22:17 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12/Position
+Stack Trace:
+#0 [internal function]: AppController->view('12', 'Position')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:22:19 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12/Position
+Stack Trace:
+#0 [internal function]: AppController->view('12', 'Position')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:22:56 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Positions/view/45
+Stack Trace:
+#0 [internal function]: AppController->view('45')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:23:14 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Positions/view/10
+Stack Trace:
+#0 [internal function]: AppController->view('10')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:24:00 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12/Position
+Stack Trace:
+#0 [internal function]: AppController->view('12', 'Position')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:24:40 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12/Position
+Stack Trace:
+#0 [internal function]: AppController->view('12', 'Position')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:25:17 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12/Position
+Stack Trace:
+#0 [internal function]: PositionsController->view('12', 'Position')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:25:21 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12/Position
+Stack Trace:
+#0 [internal function]: PositionsController->view('12', 'Position')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:25:24 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12
+Stack Trace:
+#0 [internal function]: PositionsController->view('12')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:25:24 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12
+Stack Trace:
+#0 [internal function]: PositionsController->view('12')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:25:25 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12
+Stack Trace:
+#0 [internal function]: PositionsController->view('12')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:25:26 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12
+Stack Trace:
+#0 [internal function]: PositionsController->view('12')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:25:27 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12
+Stack Trace:
+#0 [internal function]: PositionsController->view('12')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:26:03 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12
+Stack Trace:
+#0 [internal function]: PositionsController->view('12')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:26:31 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12
+Stack Trace:
+#0 [internal function]: PositionsController->view('12')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:26:32 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12
+Stack Trace:
+#0 [internal function]: PositionsController->view('12')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:26:37 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12
+Stack Trace:
+#0 [internal function]: PositionsController->view('12')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:29:02 Error: [MissingViewException] View file "Users\install.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\install.ctp',
+)
+Request URL: /cakephp/users/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:29:06 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-24 14:29:07 Error: [MissingControllerException] Controller class InstallController could not be found.
+Exception Attributes: array (
+  'class' => 'InstallController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-05-24 14:36:46 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12
+Stack Trace:
+#0 [internal function]: PositionsController->view('12')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:37:16 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12
+Stack Trace:
+#0 [internal function]: PositionsController->view('12')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:40:32 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12
+Stack Trace:
+#0 [internal function]: PositionsController->view('12')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:41:23 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12
+Stack Trace:
+#0 [internal function]: PositionsController->view('12')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:41:26 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12
+Stack Trace:
+#0 [internal function]: PositionsController->view('12')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:43:56 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12
+Stack Trace:
+#0 [internal function]: PositionsController->view('12')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:43:59 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12
+Stack Trace:
+#0 [internal function]: PositionsController->view('12')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:44:26 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12
+Stack Trace:
+#0 [internal function]: PositionsController->view('12')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:44:27 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12
+Stack Trace:
+#0 [internal function]: PositionsController->view('12')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:53:19 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12
+Stack Trace:
+#0 [internal function]: PositionsController->view('12')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:53:38 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12
+Stack Trace:
+#0 [internal function]: PositionsController->view('12')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:54:44 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12
+Stack Trace:
+#0 [internal function]: PositionsController->view('12')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:56:07 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12
+Stack Trace:
+#0 [internal function]: PositionsController->view('12')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 14:57:07 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12
+Stack Trace:
+#0 [internal function]: PositionsController->view('12')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 15:01:04 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12
+Stack Trace:
+#0 [internal function]: PositionsController->view('12')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 15:01:43 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/12
+Stack Trace:
+#0 [internal function]: PositionsController->view('12')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 15:03:22 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/add
+Stack Trace:
+#0 [internal function]: PositionsController->add()
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 15:03:22 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/add
+Stack Trace:
+#0 [internal function]: PositionsController->add()
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 15:50:17 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/add
+Stack Trace:
+#0 [internal function]: PositionsController->add()
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 17:16:41 Error: Fatal Error (1): Call to a member function check() on null in [C:\xampp\htdocs\cakephp\app\Controller\AppController.php, line 81]
+2015-05-24 17:16:41 Error: [FatalErrorException] Call to a member function check() on null
+Request URL: /cakephp/positions/view/12/Position
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 81, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 81, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-24 17:17:12 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/positions/view/12/Position
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PositionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 17:17:39 Error: [MissingComponentException] Component class AccessComponentComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponentComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/positions/view/12/Position
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('AccessComponent', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PositionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 17:18:22 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/positions/view/12/Position
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PositionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 17:24:01 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/positions/view/12/Position
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PositionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 17:24:39 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/positions/view/12/Position
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PositionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 17:24:39 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/positions/view/12/Position
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PositionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 17:43:12 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/positions/view/12/Position
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PositionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 17:45:50 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PositionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 17:45:51 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PositionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 17:45:52 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PositionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 17:45:52 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PositionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 17:45:54 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PositionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 17:45:54 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PositionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 17:45:56 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PositionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 17:45:56 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PositionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 17:46:22 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PositionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 17:46:22 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PositionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 17:46:23 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PositionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 17:46:23 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PositionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 17:46:25 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PositionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 17:46:25 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PositionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 17:47:05 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PositionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 17:47:05 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Positions
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PositionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-24 17:47:27 Error: Fatal Error (1): Call to a member function check() on null in [C:\xampp\htdocs\cakephp\app\Controller\AppController.php, line 81]
+2015-05-24 17:47:27 Error: [FatalErrorException] Call to a member function check() on null
+Request URL: /cakephp/positions/view/12/Position
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 81)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 81, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 81, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-24 17:47:58 Error: [MissingComponentException] Component class AccessComponent could not be found.
+Exception Attributes: array (
+  'class' => 'AccessComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/positions/view/12/Position
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('Access', Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(PositionsController))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(188): Controller->constructClasses()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-25 11:44:53 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Tblactions/view/145/tblaction
+Stack Trace:
+#0 [internal function]: AppController->view('145', 'tblaction')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-25 11:44:53 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Tblactions/view/145/tblaction
+Stack Trace:
+#0 [internal function]: AppController->view('145', 'tblaction')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-25 11:47:31 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Tblactions/view/145/tblaction
+Stack Trace:
+#0 [internal function]: AppController->view('145', 'tblaction')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-25 11:48:38 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Tblactions/view/145/Tblaction
+Stack Trace:
+#0 [internal function]: AppController->view('145', 'Tblaction')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-25 11:48:38 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Tblactions/view/145/Tblaction
+Stack Trace:
+#0 [internal function]: AppController->view('145', 'Tblaction')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-25 11:51:59 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Tblactions/view/145/Tblaction
+Stack Trace:
+#0 [internal function]: AppController->view('145', 'Tblaction')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-25 11:55:06 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Tblactions/view/148/Tblaction
+Stack Trace:
+#0 [internal function]: AppController->view('148', 'Tblaction')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-25 11:55:06 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Tblactions/view/148/Tblaction
+Stack Trace:
+#0 [internal function]: AppController->view('148', 'Tblaction')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-25 11:55:56 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Tblactions/view/145/Tblaction
+Stack Trace:
+#0 [internal function]: AppController->view('145', 'Tblaction')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-25 11:57:48 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Tblactions/view/145/Tblaction
+Stack Trace:
+#0 [internal function]: AppController->view('145', 'Tblaction')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-25 12:03:18 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Profiles/view/3
+Stack Trace:
+#0 [internal function]: AppController->view('3')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-25 15:42:31 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Positions/view/12
+Stack Trace:
+#0 [internal function]: AppController->view('12')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-25 23:35:38 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Profiles/view/2
+Stack Trace:
+#0 [internal function]: AppController->view('2')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-26 00:03:26 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Tblactions/view/156/Tblaction
+Stack Trace:
+#0 [internal function]: AppController->view('156', 'Tblaction')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-26 00:03:26 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Tblactions/view/156/Tblaction
+Stack Trace:
+#0 [internal function]: AppController->view('156', 'Tblaction')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-26 00:03:34 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Profiles/view/2
+Stack Trace:
+#0 [internal function]: AppController->view('2')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-26 00:03:41 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Tblactions/view/156/Tblaction
+Stack Trace:
+#0 [internal function]: AppController->view('156', 'Tblaction')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-26 00:04:34 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Tblactions/view/156/Tblaction
+Stack Trace:
+#0 [internal function]: AppController->view('156', 'Tblaction')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-26 15:43:36 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Profiles/view/2
+Stack Trace:
+#0 [internal function]: AppController->view('2')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-26 15:43:42 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Profiles/view/3
+Stack Trace:
+#0 [internal function]: AppController->view('3')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-26 15:44:37 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Tblactions/view/156/Tblaction
+Stack Trace:
+#0 [internal function]: AppController->view('156', 'Tblaction')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-26 15:44:37 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Tblactions/view/156/Tblaction
+Stack Trace:
+#0 [internal function]: AppController->view('156', 'Tblaction')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-26 15:44:42 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Tblactions/view/156
+Stack Trace:
+#0 [internal function]: AppController->view('156')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-26 15:45:25 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Tblactions/view/148/Tblaction
+Stack Trace:
+#0 [internal function]: AppController->view('148', 'Tblaction')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-26 15:45:26 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Tblactions/view/148/Tblaction
+Stack Trace:
+#0 [internal function]: AppController->view('148', 'Tblaction')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-26 15:45:28 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Tblactions/view/145/Tblaction
+Stack Trace:
+#0 [internal function]: AppController->view('145', 'Tblaction')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-26 15:45:28 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Tblactions/view/145/Tblaction
+Stack Trace:
+#0 [internal function]: AppController->view('145', 'Tblaction')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-26 15:45:31 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Tblactions/view/145/Tblaction
+Stack Trace:
+#0 [internal function]: AppController->view('145', 'Tblaction')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(TblactionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(TblactionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-26 15:46:16 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\cakephp\app\Controller\AppController.php, line 206]
+2015-05-26 15:46:16 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakephp/Tblactions/view/145/Tblaction
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 206)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 206, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 206, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-26 15:48:39 Error: Fatal Error (1): Call to a member function read() on null in [C:\xampp\htdocs\cakephp\app\Controller\AppController.php, line 83]
+2015-05-26 15:48:39 Error: [FatalErrorException] Call to a member function read() on null
+Request URL: /cakephp/Profiles/view/2
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 83)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 83, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 83, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-26 15:58:05 Error: [NotFoundException] Not Found
+Request URL: /cakephp/applicants/delete/10
+Stack Trace:
+#0 [internal function]: AppController->delete('10')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-26 15:58:49 Error: Fatal Error (1): Call to a member function delete() on null in [C:\xampp\htdocs\cakephp\app\Controller\AppController.php, line 89]
+2015-05-26 15:58:49 Error: [FatalErrorException] Call to a member function delete() on null
+Request URL: /cakephp/applicants/delete/10/Applicant
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 89)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 89, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 89, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-26 15:58:49 Error: Fatal Error (1): Call to a member function delete() on null in [C:\xampp\htdocs\cakephp\app\Controller\AppController.php, line 89]
+2015-05-26 15:58:49 Error: [FatalErrorException] Call to a member function delete() on null
+Request URL: /cakephp/applicants/delete/10/Applicant
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 89)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 89, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 89, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-26 16:00:09 Error: Fatal Error (1): Call to a member function delete() on null in [C:\xampp\htdocs\cakephp\app\Controller\AppController.php, line 89]
+2015-05-26 16:00:09 Error: [FatalErrorException] Call to a member function delete() on null
+Request URL: /cakephp/applicants/delete/10/Applicant
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 89)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 89, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 89, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-26 16:00:10 Error: Fatal Error (1): Call to a member function delete() on null in [C:\xampp\htdocs\cakephp\app\Controller\AppController.php, line 89]
+2015-05-26 16:00:10 Error: [FatalErrorException] Call to a member function delete() on null
+Request URL: /cakephp/applicants/delete/10/Applicant
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Error\ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 89)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 89, Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\\xampp\\htdocs...', 89, Array)
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-05-26 16:08:59 Error: [MissingActionException] Action ApplicantsController::latest() could not be found.
+Exception Attributes: array (
+  'controller' => 'ApplicantsController',
+  'action' => 'latest',
+)
+Request URL: /cakephp/users/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 C:\xampp\htdocs\cakephp\app\View\Elements\latest_applicant.ctp(20): Object->requestAction('/applicants/lat...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(1217): View->_render('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(418): View->_renderElement('C:\\xampp\\htdocs...', Array, Array)
+#8 C:\xampp\htdocs\cakephp\app\View\Users\index_employer.ctp(2): View->element('latest_applican...', Array, Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#11 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#14 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-05-26 16:09:02 Error: [MissingActionException] Action ApplicantsController::latest() could not be found.
+Exception Attributes: array (
+  'controller' => 'ApplicantsController',
+  'action' => 'latest',
+)
+Request URL: /cakephp/users/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 C:\xampp\htdocs\cakephp\app\View\Elements\latest_applicant.ctp(20): Object->requestAction('/applicants/lat...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(1217): View->_render('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(418): View->_renderElement('C:\\xampp\\htdocs...', Array, Array)
+#8 C:\xampp\htdocs\cakephp\app\View\Users\index_employer.ctp(2): View->element('latest_applican...', Array, Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#11 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#14 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-05-26 16:11:24 Error: [MissingActionException] Action ApplicantsController::latest() could not be found.
+Exception Attributes: array (
+  'controller' => 'ApplicantsController',
+  'action' => 'latest',
+)
+Request URL: /cakephp/users/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 C:\xampp\htdocs\cakephp\app\View\Elements\latest_applicant.ctp(20): Object->requestAction('/applicants/lat...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(1217): View->_render('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(418): View->_renderElement('C:\\xampp\\htdocs...', Array, Array)
+#8 C:\xampp\htdocs\cakephp\app\View\Users\index_employer.ctp(2): View->element('latest_applican...', Array, Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#11 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#14 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-05-26 16:12:54 Error: [PrivateActionException] Private Action ApplicantsController::latest() is not directly accessible.
+Exception Attributes: array (
+  'controller' => 'ApplicantsController',
+  'action' => 'latest',
+)
+Request URL: /cakephp/users/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 C:\xampp\htdocs\cakephp\app\View\Elements\latest_applicant.ctp(20): Object->requestAction('/applicants/lat...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(1217): View->_render('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(418): View->_renderElement('C:\\xampp\\htdocs...', Array, Array)
+#8 C:\xampp\htdocs\cakephp\app\View\Users\index_employer.ctp(2): View->element('latest_applican...', Array, Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#11 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#14 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-05-26 18:17:44 Error: [PrivateActionException] Private Action ApplicantsController::latest() is not directly accessible.
+Exception Attributes: array (
+  'controller' => 'ApplicantsController',
+  'action' => 'latest',
+)
+Request URL: /cakephp/users/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 C:\xampp\htdocs\cakephp\app\View\Elements\latest_applicant.ctp(20): Object->requestAction('/applicants/lat...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(1217): View->_render('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(418): View->_renderElement('C:\\xampp\\htdocs...', Array, Array)
+#8 C:\xampp\htdocs\cakephp\app\View\Users\index_employer.ctp(2): View->element('latest_applican...', Array, Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#11 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#14 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-05-26 18:27:02 Error: [NotFoundException] Not Found
+Request URL: /cakephp/users/index_student
+Stack Trace:
+#0 [internal function]: UsersController->index_student()
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-26 20:00:27 Error: [PrivateActionException] Private Action ApplicantsController::latest() is not directly accessible.
+Exception Attributes: array (
+  'controller' => 'ApplicantsController',
+  'action' => 'latest',
+)
+Request URL: /cakephp/users/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 C:\xampp\htdocs\cakephp\app\View\Elements\latest_applicant.ctp(20): Object->requestAction('/applicants/lat...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(1217): View->_render('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(418): View->_renderElement('C:\\xampp\\htdocs...', Array, Array)
+#8 C:\xampp\htdocs\cakephp\app\View\Users\index_employer.ctp(2): View->element('latest_applican...', Array, Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#11 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#14 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-05-26 20:00:58 Error: [PrivateActionException] Private Action ApplicantsController::latest() is not directly accessible.
+Exception Attributes: array (
+  'controller' => 'ApplicantsController',
+  'action' => 'latest',
+)
+Request URL: /cakephp/users/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 C:\xampp\htdocs\cakephp\app\View\Elements\latest_applicant.ctp(20): Object->requestAction('/applicants/lat...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(1217): View->_render('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(418): View->_renderElement('C:\\xampp\\htdocs...', Array, Array)
+#8 C:\xampp\htdocs\cakephp\app\View\Users\index_employer.ctp(2): View->element('latest_applican...', Array, Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#11 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#14 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-05-26 20:01:13 Error: [MissingActionException] Action ApplicantsController::latest() could not be found.
+Exception Attributes: array (
+  'controller' => 'ApplicantsController',
+  'action' => 'latest',
+)
+Request URL: /cakephp/users/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 C:\xampp\htdocs\cakephp\app\View\Elements\latest_applicant.ctp(20): Object->requestAction('/applicants/lat...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(1217): View->_render('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(418): View->_renderElement('C:\\xampp\\htdocs...', Array, Array)
+#8 C:\xampp\htdocs\cakephp\app\View\Users\index_employer.ctp(2): View->element('latest_applican...', Array, Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#11 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#14 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-05-26 20:02:20 Error: [PrivateActionException] Private Action ApplicantsController::latest() is not directly accessible.
+Exception Attributes: array (
+  'controller' => 'ApplicantsController',
+  'action' => 'latest',
+)
+Request URL: /cakephp/users/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 C:\xampp\htdocs\cakephp\app\View\Elements\latest_applicant.ctp(20): Object->requestAction('/applicants/lat...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(1217): View->_render('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(418): View->_renderElement('C:\\xampp\\htdocs...', Array, Array)
+#8 C:\xampp\htdocs\cakephp\app\View\Users\index_employer.ctp(2): View->element('latest_applican...', Array, Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#11 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#14 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-05-26 20:02:26 Error: [PrivateActionException] Private Action ApplicantsController::latest() is not directly accessible.
+Exception Attributes: array (
+  'controller' => 'ApplicantsController',
+  'action' => 'latest',
+)
+Request URL: /cakephp/users/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 C:\xampp\htdocs\cakephp\app\View\Elements\latest_applicant.ctp(20): Object->requestAction('/applicants/lat...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(1217): View->_render('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(418): View->_renderElement('C:\\xampp\\htdocs...', Array, Array)
+#8 C:\xampp\htdocs\cakephp\app\View\Users\index_employer.ctp(2): View->element('latest_applican...', Array, Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#11 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#14 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-05-26 20:08:27 Error: [PrivateActionException] Private Action ApplicantsController::latest() is not directly accessible.
+Exception Attributes: array (
+  'controller' => 'ApplicantsController',
+  'action' => 'latest',
+)
+Request URL: /cakephp/users/index_employer
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Core\Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 C:\xampp\htdocs\cakephp\app\View\Elements\latest_applicant.ctp(20): Object->requestAction('/applicants/lat...')
+#4 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(1217): View->_render('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(418): View->_renderElement('C:\\xampp\\htdocs...', Array, Array)
+#8 C:\xampp\htdocs\cakephp\app\View\Users\index_employer.ctp(2): View->element('latest_applican...', Array, Array)
+#9 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(961): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(923): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#11 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#14 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-05-26 20:27:27 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Applicants/view/Applicant
+Stack Trace:
+#0 [internal function]: AppController->view('Applicant')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ApplicantsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ApplicantsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-26 22:48:24 Error: [MissingViewException] View file "Users\install.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users\\install.ctp',
+)
+Request URL: /cakephp/users/install
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\View\View.php(470): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(960): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-27 01:11:36 Error: [NotFoundException] Not Found
+Request URL: /cakephp/profiles/view/
+Stack Trace:
+#0 [internal function]: AppController->view()
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-27 01:13:36 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'
+Request URL: /cakephp/profiles/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(460): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(426): DboSource->_execute('INSERT INTO `te...', Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `te...')
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1928): DboSource->create(Object(Profile), Array, Array)
+#4 C:\xampp\htdocs\cakephp\lib\Cake\Model\Model.php(1751): Model->_doSave(Array, Array)
+#5 C:\xampp\htdocs\cakephp\app\Controller\ProfilesController.php(99): Model->save(Array)
+#6 [internal function]: ProfilesController->add()
+#7 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#8 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#10 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2015-05-27 01:14:17 Error: [NotFoundException] Not Found
+Request URL: /cakephp/profiles/view/0
+Stack Trace:
+#0 [internal function]: AppController->view('0')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-27 01:15:01 Error: [NotFoundException] Not Found
+Request URL: /cakephp/profiles/view/0
+Stack Trace:
+#0 [internal function]: AppController->view('0')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-27 01:40:56 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/16
+Stack Trace:
+#0 [internal function]: AppController->view('16')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-27 01:43:40 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Profiles/view/11
+Stack Trace:
+#0 [internal function]: AppController->view('11')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-27 01:44:26 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Profiles/view/11
+Stack Trace:
+#0 [internal function]: AppController->view('11')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-27 01:44:34 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Profiles/view/11/profile
+Stack Trace:
+#0 [internal function]: AppController->view('11', 'profile')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-27 01:44:35 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Profiles/view/11/profile
+Stack Trace:
+#0 [internal function]: AppController->view('11', 'profile')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-27 01:44:44 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Profiles/view/11
+Stack Trace:
+#0 [internal function]: AppController->view('11')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-27 02:18:44 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/72
+Stack Trace:
+#0 [internal function]: AppController->view('72')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-27 02:18:56 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/72/position
+Stack Trace:
+#0 [internal function]: AppController->view('72', 'position')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-27 02:18:56 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/72/position
+Stack Trace:
+#0 [internal function]: AppController->view('72', 'position')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-27 02:19:05 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Profiles/view/11/Profile
+Stack Trace:
+#0 [internal function]: AppController->view('11', 'Profile')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-27 02:19:05 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Profiles/view/11/Profile
+Stack Trace:
+#0 [internal function]: AppController->view('11', 'Profile')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-27 02:19:13 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Profiles/view/11/Profile
+Stack Trace:
+#0 [internal function]: AppController->view('11', 'Profile')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-27 02:20:44 Error: [NotFoundException] Not Found
+Request URL: /cakephp/positions/view/72
+Stack Trace:
+#0 [internal function]: AppController->view('72')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PositionsController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PositionsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-05-27 02:21:21 Error: [NotFoundException] Not Found
+Request URL: /cakephp/Profiles/view/11/Profile
+Stack Trace:
+#0 [internal function]: AppController->view('11', 'Profile')
+#1 C:\xampp\htdocs\cakephp\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ProfilesController), Array)
+#2 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakephp\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakephp\app\webroot\index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

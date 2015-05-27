@@ -61,7 +61,7 @@
         <div class="col-sm-3 col-md-2 sidebar">
             <ul class="nav nav-sidebar">
                 <img src="http://intra.davidmchugh.ie/dcu.png">
-                <li><a href="#"><?php echo $this->html->link('Overview',array('controller' => 'Users', 'action' => 'index')); ?><span class="sr-only">(current)</span></a></li>
+                <li><a href="#"><?php echo $this->html->link('Overview',array('controller' => 'Users', 'action' => 'index')); ?></a></li>
                 <li><a href="#"><?php echo $this->html->link('Profile',array('controller' => 'Profiles', 'action' => 'index')); ?></a></li>
                 <li><a href="#"><?php echo $this->html->link('Positions',array('controller' => 'Positions', 'action' => 'index')); ?></a></li>
                 <li><a href="#"><?php echo $this->html->link('Applications',array('controller' => 'Applicants', 'action' => 'index')); ?></a></li>

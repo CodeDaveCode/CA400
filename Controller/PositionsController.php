@@ -54,23 +54,11 @@ class PositionsController extends AppController
         }
     }
 
-    //View function
-    function view($ID = NULL)
-    {
-        $user = $this->Auth->user();
-        if(!$this->Acl->check($user['role'], 'Position', 'view')) {
-            throw new NotFoundException();
-        }
-        else {
-            $this->set('position', $this->Position->read(NULL, $ID));
-        }
-    }
-
     //View student function , used for PDF
     function view_student($ID = NULL)
     {
         $user = $this->Auth->user();
-        if(!$this->Acl->check($user['role'], 'Position', 'view')) {
+        if(!$this->Acl->check($user['role'], 'Position', 'read')) {
             throw new NotFoundException();
         }
         else {
@@ -126,23 +114,8 @@ class PositionsController extends AppController
         }
     }
 
-    //Delete function
-    function delete($ID = NULL)
-    {
-        $user = $this->Auth->user();
-        if(!$this->Acl->check($user['role'], 'Position', 'delete'))
-        {
-            throw new NotFoundException();
-        }
-        else {
-            $this->Position->delete($ID);
-            $this->Session->setFlash('Position deleted');
-            $this->redirect(array('action' => 'index'));
-        }
-    }
-
     //Latest positions added
-    public function latest() {
+     function latest() {
         if (empty($this->request->params['requested'])) {
             throw new ForbiddenException();
         }

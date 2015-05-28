@@ -171,12 +171,12 @@ class User extends AppModel
     }
 
     public function beforeSave($options = array()) {
-        // hash our password
+        // hash password
         if (isset($this->data[$this->alias]['password'])) {
             $this->data[$this->alias]['password'] = AuthComponent::password($this->data[$this->alias]['password']);
         }
 
-        // fallback to our parent
+        // fallback to parent
         return parent::beforeSave($options);
     }
 }

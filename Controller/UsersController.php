@@ -36,7 +36,6 @@ class UsersController extends AppController
         else {
             $this->set('users', $this->User->Profile->find('all'));
             $this->set('title_for_layout', 'users');
-            $this->response->body(json_encode($data));
         }
     }
 
@@ -185,9 +184,9 @@ class UsersController extends AppController
 
         $this->Acl->allow('employer', 'User', array('read','update'));
         $this->Acl->allow('employer', 'Position', '*');
-        $this->Acl->allow('student', 'User', array('create','read'));
-        $this->Acl->allow('student', 'Applicant', array('create','read','update'));
-        $this->Acl->allow('student', 'Profile', array('create','read','update'));
+        $this->Acl->allow('employer', 'User', array('create','read'));
+        $this->Acl->allow('employer', 'Applicant', array('create','read','update'));
+        $this->Acl->allow('employer', 'Profile', array('create','read','update'));
 
         $this->Acl->allow('lecturer', 'User', array('create','read'));
 
@@ -280,30 +279,6 @@ class UsersController extends AppController
         }
     }
 
-    //Delete function
-    public function delete_User($id = null) {
-        $user = $this->Auth->user();
-        if(!$this->Acl->check($user['role'], 'User', 'delete')) {
-            throw new NotFoundException();
-        }
-        else {
-            if (!$id) {
-                $this->Session->setFlash('Please provide a user id');
-                $this->redirect(array('action' => 'index'));
-            }
-            $this->User->id = $id;
-            if (!$this->User->exists()) {
-                $this->Session->setFlash('Invalid user id provided');
-                $this->redirect(array('action' => 'index'));
-            }
-            if ($this->User->saveField('status', 0)) {
-                $this->Session->setFlash('User deleted');
-                $this->redirect(array('action' => 'index'));
-            }
-            $this->Session->setFlash('User was not deleted');
-            $this->redirect(array('action' => 'index'));
-        }
-    }
 
     //Set user activation to 1
     public function activate($id = null) {
